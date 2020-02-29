@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2015
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIWcf", "APIWcf\APIWcf.csproj", "{93CEFC80-C75D-4615-B11E-07E441FEC8A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trx", "Framework\Trx.csproj", "{CFDCCA9A-3D3F-4404-BC80-08A1EEF045B9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{93CEFC80-C75D-4615-B11E-07E441FEC8A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93CEFC80-C75D-4615-B11E-07E441FEC8A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93CEFC80-C75D-4615-B11E-07E441FEC8A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93CEFC80-C75D-4615-B11E-07E441FEC8A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFDCCA9A-3D3F-4404-BC80-08A1EEF045B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFDCCA9A-3D3F-4404-BC80-08A1EEF045B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFDCCA9A-3D3F-4404-BC80-08A1EEF045B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFDCCA9A-3D3F-4404-BC80-08A1EEF045B9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2CEC6967-C335-4D8F-9134-3CC6E083A359}
+	EndGlobalSection
+EndGlobal

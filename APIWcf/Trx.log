@@ -1,0 +1,1264 @@
+2019-12-12 13:18:17.627 [12] WARN - #################### Inicio ClientAutorizador ####################
+2019-12-12 13:18:18.016 [12] WARN - Conectando con cliente RemoteInterface = localhost RemotePort = 7000
+2019-12-12 13:18:18.076 [12] INFO - ClientAutorizador: connecting to 127.0.0.1:7000 from local end point 0.0.0.0:0.
+2019-12-12 13:18:19.151 [17] WARN - ClientAutorizador: connection refused, No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión 127.0.0.1:7000.
+2019-12-12 13:18:19.153 [6] INFO - ClientAutorizador: connecting to 127.0.0.1:7000 from local end point 0.0.0.0:0.
+2019-12-12 13:18:19.279 [12] WARN - No hay conexion: System.Net.Sockets.SocketException (0x80004005): No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión 127.0.0.1:7000
+   en System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   en System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   en Trx.Communication.Channels.Tcp.TcpClientChannel.AsyncConnectionRequestHandler(IAsyncResult asyncResult) en C:\Users\Aparicio\documents\visual studio 2017\Projects\APIWcf\Framework\Communication\Channels\Tcp\TcpClientChannel.cs:línea 327
+2019-12-12 13:18:19.281 [12] INFO - Response: -1
+2019-12-12 13:18:19.281 [12] INFO - #################### Fin ClientAutorizador ####################
+2019-12-12 13:18:20.155 [12] WARN - ClientAutorizador: connection refused, No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión 127.0.0.1:7000.
+2019-12-12 13:21:20.225 [12] WARN - #################### Inicio ClientAutorizador ####################
+2019-12-12 13:21:20.291 [12] WARN - Conectando con cliente RemoteInterface = localhost RemotePort = 7000
+2019-12-12 13:21:20.292 [12] INFO - ClientAutorizador: connecting to 127.0.0.1:7000 from local end point 0.0.0.0:0.
+2019-12-12 13:21:20.294 [12] WARN - Conecto con cliente
+2019-12-12 13:21:20.294 [11] INFO - ClientAutorizador: connected to 127.0.0.1:7000 from local end point 127.0.0.1:10984.
+2019-12-12 13:21:20.337 [12] INFO - ClientAutorizador message to send: H:6000360101,M:200,0:[2,3,4,7,11,12,13,22,24,25,41,42,46,48,49,60,61,62],2:************0001,3:000000,4:000000000100,7:1212132120,11:81136,12:132120,13:1212,22:022,24:36,25:00,41:APISW_12,42:9999,46:           #0112000000000000,48:001,49:858,60:40   APISWV1.0     ,61:10069,62:0001
+2019-12-12 13:21:20.353 [12] DEBUG - ClientAutorizador raw data to send (148 bytes): 
+     1 |..`.6....r8...Å.....| 00 92 60 00 36 01 01 02 00 72 38 05 80 00 C5 80 1C ** ** **
+    21 |..................! | ** ** ** ** ** ** 00 00 00 00 00 00 00 01 00 12 12 13 21 20
+    41 |..6.! ...".6.APISW_1| 08 11 36 13 21 20 12 12 00 22 00 36 00 41 50 49 53 57 5F 31
+    61 |29999           .(  | 32 39 39 39 39 20 20 20 20 20 20 20 20 20 20 20 00 28 20 20
+    81 |         #0112000000| 20 20 20 20 20 20 20 20 20 23 30 31 31 32 30 30 30 30 30 30
+   101 |000000..001858..40  | 30 30 30 30 30 30 00 03 30 30 31 38 35 38 00 19 34 30 20 20
+   121 | APISWV1.0     ..100| 20 41 50 49 53 57 56 31 2E 30 20 20 20 20 20 00 05 31 30 30
+   141 |69..0001|             36 39 00 04 30 30 30 31
+2019-12-12 13:21:20.807 [11] INFO - ClientAutorizador: the connection was lost, the remote peer 127.0.0.1:7000 has terminated the communication, local end point 127.0.0.1:10984.
+2019-12-12 13:21:20.829 [11] INFO - ClientAutorizador: next reconnection attempt in 1 second/s.
+2019-12-12 13:21:21.832 [14] INFO - ClientAutorizador: connecting to 127.0.0.1:7000 from local end point 0.0.0.0:0.
+2019-12-12 13:21:21.833 [13] INFO - ClientAutorizador: connected to 127.0.0.1:7000 from local end point 127.0.0.1:10985.
+2019-12-12 13:21:23.364 [12] INFO - Expiro tiempo de espera de respuesta.
+2019-12-12 13:21:23.364 [12] INFO - ClientAutorizador: disconnecting from 127.0.0.1:7000, local end point 127.0.0.1:10985.
+2019-12-12 13:21:23.365 [12] INFO - Response: -1
+2019-12-12 13:21:23.365 [12] INFO - #################### Fin ClientAutorizador ####################
+2019-12-12 13:25:50.230 [20] WARN - #################### Inicio ClientAutorizador ####################
+2019-12-12 13:25:50.274 [20] WARN - Conectando con cliente RemoteInterface = localhost RemotePort = 7000
+2019-12-12 13:25:50.276 [20] INFO - ClientAutorizador: connecting to 127.0.0.1:7000 from local end point 0.0.0.0:0.
+2019-12-12 13:25:50.276 [23] INFO - ClientAutorizador: connected to 127.0.0.1:7000 from local end point 127.0.0.1:11000.
+2019-12-12 13:25:50.276 [20] WARN - Conecto con cliente
+2019-12-12 13:25:50.277 [20] INFO - ClientAutorizador message to send: H:6000360101,M:200,0:[2,3,4,7,11,12,13,22,24,25,41,42,46,48,49,60,61,62],2:************0001,3:000000,4:000000000100,7:1212132550,11:469956,12:132550,13:1212,22:022,24:36,25:00,41:APISW_12,42:9999,46:           #0112000000000000,48:001,49:858,60:40   APISWV1.0     ,61:10069,62:0001
+2019-12-12 13:25:50.277 [20] DEBUG - ClientAutorizador raw data to send (148 bytes): 
+     1 |..`.6....r8...Å.....| 00 92 60 00 36 01 01 02 00 72 38 05 80 00 C5 80 1C ** ** **
+    21 |..................%P| ** ** ** ** ** ** 00 00 00 00 00 00 00 01 00 12 12 13 25 50
+    41 |F.V.%P...".6.APISW_1| 46 99 56 13 25 50 12 12 00 22 00 36 00 41 50 49 53 57 5F 31
+    61 |29999           .(  | 32 39 39 39 39 20 20 20 20 20 20 20 20 20 20 20 00 28 20 20
+    81 |         #0112000000| 20 20 20 20 20 20 20 20 20 23 30 31 31 32 30 30 30 30 30 30
+   101 |000000..001858..40  | 30 30 30 30 30 30 00 03 30 30 31 38 35 38 00 19 34 30 20 20
+   121 | APISWV1.0     ..100| 20 41 50 49 53 57 56 31 2E 30 20 20 20 20 20 00 05 31 30 30
+   141 |69..0001|             36 39 00 04 30 30 30 31
+2019-12-12 13:25:50.415 [23] INFO - ClientAutorizador: the connection was lost, the remote peer 127.0.0.1:7000 has terminated the communication, local end point 127.0.0.1:11000.
+2019-12-12 13:25:50.416 [23] INFO - ClientAutorizador: next reconnection attempt in 1 second/s.
+2019-12-12 13:25:51.417 [18] INFO - ClientAutorizador: connecting to 127.0.0.1:7000 from local end point 0.0.0.0:0.
+2019-12-12 13:25:51.417 [23] INFO - ClientAutorizador: connected to 127.0.0.1:7000 from local end point 127.0.0.1:11001.
+2019-12-12 13:25:53.281 [20] INFO - Expiro tiempo de espera de respuesta.
+2019-12-12 13:25:53.281 [20] INFO - ClientAutorizador: disconnecting from 127.0.0.1:7000, local end point 127.0.0.1:11001.
+2019-12-12 13:25:53.281 [20] INFO - Response: -1
+2019-12-12 13:25:53.282 [20] INFO - #################### Fin ClientAutorizador ####################
+2019-12-12 13:29:51.106 [25] WARN - #################### Inicio ClientAutorizador ####################
+2019-12-12 13:29:51.178 [25] WARN - Conectando con cliente RemoteInterface = localhost RemotePort = 7000
+2019-12-12 13:29:51.179 [25] INFO - ClientAutorizador: connecting to 127.0.0.1:7000 from local end point 0.0.0.0:0.
+2019-12-12 13:29:51.180 [28] INFO - ClientAutorizador: connected to 127.0.0.1:7000 from local end point 127.0.0.1:11013.
+2019-12-12 13:29:51.180 [25] WARN - Conecto con cliente
+2019-12-12 13:29:51.180 [25] INFO - ClientAutorizador message to send: H:6000360101,M:200,0:[2,3,4,7,11,12,13,22,24,25,41,42,46,48,49,60,61,62],2:************0001,3:000000,4:000000000100,7:1212132951,11:667511,12:132951,13:1212,22:022,24:36,25:00,41:APISW_12,42:9999,46:           #0112000000000000,48:001,49:858,60:40   APISWV1.0     ,61:10069,62:0001
+2019-12-12 13:29:51.180 [25] DEBUG - ClientAutorizador raw data to send (148 bytes): 
+     1 |..`.6....r8...Å.....| 00 92 60 00 36 01 01 02 00 72 38 05 80 00 C5 80 1C ** ** **
+    21 |..................)Q| ** ** ** ** ** ** 00 00 00 00 00 00 00 01 00 12 12 13 29 51
+    41 |fu..)Q...".6.APISW_1| 66 75 11 13 29 51 12 12 00 22 00 36 00 41 50 49 53 57 5F 31
+    61 |29999           .(  | 32 39 39 39 39 20 20 20 20 20 20 20 20 20 20 20 00 28 20 20
+    81 |         #0112000000| 20 20 20 20 20 20 20 20 20 23 30 31 31 32 30 30 30 30 30 30
+   101 |000000..001858..40  | 30 30 30 30 30 30 00 03 30 30 31 38 35 38 00 19 34 30 20 20
+   121 | APISWV1.0     ..100| 20 41 50 49 53 57 56 31 2E 30 20 20 20 20 20 00 05 31 30 30
+   141 |69..0001|             36 39 00 04 30 30 30 31
+2019-12-12 13:29:51.303 [28] INFO - ClientAutorizador: the connection was lost, the remote peer 127.0.0.1:7000 has terminated the communication, local end point 127.0.0.1:11013.
+2019-12-12 13:29:51.304 [28] INFO - ClientAutorizador: next reconnection attempt in 1 second/s.
+2019-12-12 13:29:52.306 [16] INFO - ClientAutorizador: connecting to 127.0.0.1:7000 from local end point 0.0.0.0:0.
+2019-12-12 13:29:52.306 [28] INFO - ClientAutorizador: connected to 127.0.0.1:7000 from local end point 127.0.0.1:11014.
+2019-12-12 13:29:54.181 [25] INFO - Expiro tiempo de espera de respuesta.
+2019-12-12 13:29:54.181 [25] INFO - ClientAutorizador: disconnecting from 127.0.0.1:7000, local end point 127.0.0.1:11014.
+2019-12-12 13:29:54.181 [25] INFO - Response: -1
+2019-12-12 13:29:54.182 [25] INFO - #################### Fin ClientAutorizador ####################
+2019-12-12 13:32:04.182 [25] WARN - #################### Inicio ClientAutorizador ####################
+2019-12-12 13:32:04.262 [25] WARN - Conectando con cliente RemoteInterface = localhost RemotePort = 7000
+2019-12-12 13:32:04.263 [25] INFO - ClientAutorizador: connecting to 127.0.0.1:7000 from local end point 0.0.0.0:0.
+2019-12-12 13:32:04.269 [32] INFO - ClientAutorizador: connected to 127.0.0.1:7000 from local end point 127.0.0.1:11029.
+2019-12-12 13:32:04.269 [25] WARN - Conecto con cliente
+2019-12-12 13:32:04.269 [25] INFO - ClientAutorizador message to send: H:6000360101,M:200,0:[2,3,4,7,11,12,13,22,24,25,41,42,46,48,49,60,61,62],2:************0001,3:000000,4:000000000100,7:1212133204,11:983472,12:133204,13:1212,22:022,24:36,25:00,41:APISW_12,42:9999,46:           #0112000000000000,48:001,49:858,60:40   APISWV1.0     ,61:10069,62:0001
+2019-12-12 13:32:04.269 [25] DEBUG - ClientAutorizador raw data to send (148 bytes): 
+     1 |..`.6....r8...Å.....| 00 92 60 00 36 01 01 02 00 72 38 05 80 00 C5 80 1C ** ** **
+    21 |..................2.| ** ** ** ** ** ** 00 00 00 00 00 00 00 01 00 12 12 13 32 04
+    41 |.4r.2....".6.APISW_1| 98 34 72 13 32 04 12 12 00 22 00 36 00 41 50 49 53 57 5F 31
+    61 |29999           .(  | 32 39 39 39 39 20 20 20 20 20 20 20 20 20 20 20 00 28 20 20
+    81 |         #0112000000| 20 20 20 20 20 20 20 20 20 23 30 31 31 32 30 30 30 30 30 30
+   101 |000000..001858..40  | 30 30 30 30 30 30 00 03 30 30 31 38 35 38 00 19 34 30 20 20
+   121 | APISWV1.0     ..100| 20 41 50 49 53 57 56 31 2E 30 20 20 20 20 20 00 05 31 30 30
+   141 |69..0001|             36 39 00 04 30 30 30 31
+2019-12-12 13:32:04.493 [32] INFO - ClientAutorizador: the connection was lost, the remote peer 127.0.0.1:7000 has terminated the communication, local end point 127.0.0.1:11029.
+2019-12-12 13:32:04.501 [32] INFO - ClientAutorizador: next reconnection attempt in 1 second/s.
+2019-12-12 13:32:05.516 [26] INFO - ClientAutorizador: connecting to 127.0.0.1:7000 from local end point 0.0.0.0:0.
+2019-12-12 13:32:05.516 [32] INFO - ClientAutorizador: connected to 127.0.0.1:7000 from local end point 127.0.0.1:11030.
+2019-12-12 13:32:07.283 [25] INFO - Expiro tiempo de espera de respuesta.
+2019-12-12 13:32:07.283 [25] INFO - ClientAutorizador: disconnecting from 127.0.0.1:7000, local end point 127.0.0.1:11030.
+2019-12-12 13:32:07.283 [25] INFO - Response: -1
+2019-12-12 13:32:07.284 [25] INFO - #################### Fin ClientAutorizador ####################
+2019-12-12 14:01:39.468 [22] WARN - #################### Inicio ClientAutorizador ####################
+2019-12-12 14:01:39.529 [22] WARN - Conectando con cliente RemoteInterface = localhost RemotePort = 7000
+2019-12-12 14:01:39.531 [22] INFO - ClientAutorizador: connecting to 127.0.0.1:7000 from local end point 0.0.0.0:0.
+2019-12-12 14:01:39.532 [19] INFO - ClientAutorizador: connected to 127.0.0.1:7000 from local end point 127.0.0.1:11263.
+2019-12-12 14:01:39.532 [22] WARN - Conecto con cliente
+2019-12-12 14:01:39.533 [22] INFO - ClientAutorizador message to send: H:6000360101,M:200,0:[2,3,4,7,11,12,13,22,24,25,41,42,46,48,49,60,61,62],2:************0001,3:000000,4:000000000100,7:1212140139,11:240097,12:140139,13:1212,22:022,24:36,25:00,41:APISW_12,42:9999,46:           #0112000000000000,48:001,49:858,60:40   APISWV1.0     ,61:10069,62:0001
+2019-12-12 14:01:39.534 [22] DEBUG - ClientAutorizador raw data to send (148 bytes): 
+     1 |..`.6....r8...Å.....| 00 92 60 00 36 01 01 02 00 72 38 05 80 00 C5 80 1C ** ** **
+    21 |...................9| ** ** ** ** ** ** 00 00 00 00 00 00 00 01 00 12 12 14 01 39
+    41 |$....9...".6.APISW_1| 24 00 97 14 01 39 12 12 00 22 00 36 00 41 50 49 53 57 5F 31
+    61 |29999           .(  | 32 39 39 39 39 20 20 20 20 20 20 20 20 20 20 20 00 28 20 20
+    81 |         #0112000000| 20 20 20 20 20 20 20 20 20 23 30 31 31 32 30 30 30 30 30 30
+   101 |000000..001858..40  | 30 30 30 30 30 30 00 03 30 30 31 38 35 38 00 19 34 30 20 20
+   121 | APISWV1.0     ..100| 20 41 50 49 53 57 56 31 2E 30 20 20 20 20 20 00 05 31 30 30
+   141 |69..0001|             36 39 00 04 30 30 30 31
+2019-12-12 14:01:42.548 [22] INFO - Expiro tiempo de espera de respuesta.
+2019-12-12 14:01:42.548 [22] INFO - ClientAutorizador: disconnecting from 127.0.0.1:7000, local end point 127.0.0.1:11263.
+2019-12-12 14:01:42.549 [22] INFO - Response: -1
+2019-12-12 14:01:42.550 [22] INFO - #################### Fin ClientAutorizador ####################
+2019-12-12 14:37:13.821 [13] WARN - #################### Inicio ClientAutorizador ####################
+2019-12-12 14:37:13.880 [13] WARN - Conectando con cliente RemoteInterface = localhost RemotePort = 7000
+2019-12-12 14:37:13.882 [13] INFO - ClientAutorizador: connecting to 127.0.0.1:7000 from local end point 0.0.0.0:0.
+2019-12-12 14:37:13.883 [15] INFO - ClientAutorizador: connected to 127.0.0.1:7000 from local end point 127.0.0.1:11436.
+2019-12-12 14:37:13.883 [13] WARN - Conecto con cliente
+2019-12-12 14:37:13.884 [13] INFO - ClientAutorizador message to send: H:6000360101,M:200,0:[2,3,4,7,11,12,13,22,24,25,41,42,46,48,49,60,61,62],2:************0001,3:000000,4:000000000100,7:1212143713,11:411264,12:143713,13:1212,22:022,24:36,25:00,41:APISW_12,42:9999,46:           #0112000000000000,48:001,49:858,60:40   APISWV1.0     ,61:10069,62:0001
+2019-12-12 14:37:13.884 [13] DEBUG - ClientAutorizador raw data to send (148 bytes): 
+     1 |..`.6....r8...Å.....| 00 92 60 00 36 01 01 02 00 72 38 05 80 00 C5 80 1C ** ** **
+    21 |..................7.| ** ** ** ** ** ** 00 00 00 00 00 00 00 01 00 12 12 14 37 13
+    41 |A.d.7....".6.APISW_1| 41 12 64 14 37 13 12 12 00 22 00 36 00 41 50 49 53 57 5F 31
+    61 |29999           .(  | 32 39 39 39 39 20 20 20 20 20 20 20 20 20 20 20 00 28 20 20
+    81 |         #0112000000| 20 20 20 20 20 20 20 20 20 23 30 31 31 32 30 30 30 30 30 30
+   101 |000000..001858..40  | 30 30 30 30 30 30 00 03 30 30 31 38 35 38 00 19 34 30 20 20
+   121 | APISWV1.0     ..100| 20 41 50 49 53 57 56 31 2E 30 20 20 20 20 20 00 05 31 30 30
+   141 |69..0001|             36 39 00 04 30 30 30 31
+2019-12-12 14:37:14.039 [15] INFO - ClientAutorizador: the connection was lost, the remote peer 127.0.0.1:7000 has terminated the communication, local end point 127.0.0.1:11436.
+2019-12-12 14:37:14.040 [15] INFO - ClientAutorizador: next reconnection attempt in 1 second/s.
+2019-12-12 14:37:15.042 [24] INFO - ClientAutorizador: connecting to 127.0.0.1:7000 from local end point 0.0.0.0:0.
+2019-12-12 14:37:15.042 [15] INFO - ClientAutorizador: connected to 127.0.0.1:7000 from local end point 127.0.0.1:11437.
+2019-12-12 14:37:16.895 [13] INFO - Expiro tiempo de espera de respuesta.
+2019-12-12 14:37:16.895 [13] INFO - ClientAutorizador: disconnecting from 127.0.0.1:7000, local end point 127.0.0.1:11437.
+2019-12-12 14:37:16.895 [13] INFO - Response: -1
+2019-12-12 14:37:16.896 [13] INFO - #################### Fin ClientAutorizador ####################
+2019-12-12 14:43:23.535 [12] WARN - #################### Inicio ClientAutorizador ####################
+2019-12-12 14:43:23.654 [12] WARN - Conectando con cliente RemoteInterface = 127.0.0.1 RemotePort = 7000
+2019-12-12 14:43:23.666 [12] INFO - ClientAutorizador: connecting to 127.0.0.1:7000 from local end point 0.0.0.0:0.
+2019-12-12 14:43:24.680 [16] WARN - ClientAutorizador: connection refused, No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión 127.0.0.1:7000.
+2019-12-12 14:43:24.681 [5] INFO - ClientAutorizador: connecting to 127.0.0.1:7000 from local end point 0.0.0.0:0.
+2019-12-12 14:43:24.689 [12] WARN - No hay conexion: System.Net.Sockets.SocketException (0x80004005): No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión 127.0.0.1:7000
+   en System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   en System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   en Trx.Communication.Channels.Tcp.TcpClientChannel.AsyncConnectionRequestHandler(IAsyncResult asyncResult) en C:\Users\Aparicio\documents\visual studio 2017\Projects\APIWcf\Framework\Communication\Channels\Tcp\TcpClientChannel.cs:línea 327
+2019-12-12 14:43:24.690 [12] INFO - Response: -1
+2019-12-12 14:43:24.690 [12] INFO - #################### Fin ClientAutorizador ####################
+2019-12-12 14:43:25.684 [12] WARN - ClientAutorizador: connection refused, No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión 127.0.0.1:7000.
+2019-12-12 14:43:42.489 [12] WARN - #################### Inicio ClientAutorizador ####################
+2019-12-12 14:43:42.533 [12] WARN - Conectando con cliente RemoteInterface = 127.0.0.1 RemotePort = 7000
+2019-12-12 14:43:42.533 [12] INFO - ClientAutorizador: connecting to 127.0.0.1:7000 from local end point 0.0.0.0:0.
+2019-12-12 14:43:43.540 [17] WARN - ClientAutorizador: connection refused, No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión 127.0.0.1:7000.
+2019-12-12 14:43:43.540 [5] INFO - ClientAutorizador: connecting to 127.0.0.1:7000 from local end point 0.0.0.0:0.
+2019-12-12 14:43:43.540 [12] WARN - No hay conexion: System.Net.Sockets.SocketException (0x80004005): No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión 127.0.0.1:7000
+   en System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   en System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   en Trx.Communication.Channels.Tcp.TcpClientChannel.AsyncConnectionRequestHandler(IAsyncResult asyncResult) en C:\Users\Aparicio\documents\visual studio 2017\Projects\APIWcf\Framework\Communication\Channels\Tcp\TcpClientChannel.cs:línea 327
+2019-12-12 14:43:43.540 [12] INFO - Response: -1
+2019-12-12 14:43:43.541 [12] INFO - #################### Fin ClientAutorizador ####################
+2019-12-12 14:43:44.546 [14] WARN - ClientAutorizador: connection refused, No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión 127.0.0.1:7000.
+2019-12-12 14:43:53.349 [17] WARN - #################### Inicio ClientAutorizador ####################
+2019-12-12 14:43:53.427 [17] WARN - Conectando con cliente RemoteInterface = 127.0.0.1 RemotePort = 7000
+2019-12-12 14:43:53.427 [17] INFO - ClientAutorizador: connecting to 127.0.0.1:7000 from local end point 0.0.0.0:0.
+2019-12-12 14:43:53.429 [17] WARN - Conecto con cliente
+2019-12-12 14:43:53.429 [12] INFO - ClientAutorizador: connected to 127.0.0.1:7000 from local end point 127.0.0.1:11478.
+2019-12-12 14:43:53.476 [17] INFO - ClientAutorizador message to send: H:6000360101,M:200,0:[2,3,4,7,11,12,13,22,24,25,41,42,46,48,49,60,61,62],2:************0001,3:000000,4:000000000100,7:1212144353,11:519467,12:144353,13:1212,22:022,24:36,25:00,41:APISW_12,42:9999,46:           #0112000000000000,48:001,49:858,60:40   APISWV1.0     ,61:10069,62:0001
+2019-12-12 14:43:53.490 [17] DEBUG - ClientAutorizador raw data to send (148 bytes): 
+     1 |..`.6....r8...Å.....| 00 92 60 00 36 01 01 02 00 72 38 05 80 00 C5 80 1C ** ** **
+    21 |..................CS| ** ** ** ** ** ** 00 00 00 00 00 00 00 01 00 12 12 14 43 53
+    41 |Q.g.CS...".6.APISW_1| 51 94 67 14 43 53 12 12 00 22 00 36 00 41 50 49 53 57 5F 31
+    61 |29999           .(  | 32 39 39 39 39 20 20 20 20 20 20 20 20 20 20 20 00 28 20 20
+    81 |         #0112000000| 20 20 20 20 20 20 20 20 20 23 30 31 31 32 30 30 30 30 30 30
+   101 |000000..001858..40  | 30 30 30 30 30 30 00 03 30 30 31 38 35 38 00 19 34 30 20 20
+   121 | APISWV1.0     ..100| 20 41 50 49 53 57 56 31 2E 30 20 20 20 20 20 00 05 31 30 30
+   141 |69..0001|             36 39 00 04 30 30 30 31
+2019-12-12 14:43:53.647 [12] INFO - ClientAutorizador: the connection was lost, the remote peer 127.0.0.1:7000 has terminated the communication, local end point 127.0.0.1:11478.
+2019-12-12 14:43:53.655 [12] INFO - ClientAutorizador: next reconnection attempt in 1 second/s.
+2019-12-12 14:43:54.659 [7] INFO - ClientAutorizador: connecting to 127.0.0.1:7000 from local end point 0.0.0.0:0.
+2019-12-12 14:43:54.659 [12] INFO - ClientAutorizador: connected to 127.0.0.1:7000 from local end point 127.0.0.1:11479.
+2019-12-12 14:43:56.502 [17] INFO - Expiro tiempo de espera de respuesta.
+2019-12-12 14:43:56.502 [17] INFO - ClientAutorizador: disconnecting from 127.0.0.1:7000, local end point 127.0.0.1:11479.
+2019-12-12 14:43:56.503 [17] INFO - Response: -1
+2019-12-12 14:43:56.503 [17] INFO - #################### Fin ClientAutorizador ####################
+2019-12-12 15:43:18.686 [9] WARN - #################### Inicio ClientAutorizador ####################
+2019-12-12 15:43:18.819 [9] WARN - Conectando con cliente RemoteInterface = 127.0.0.1 RemotePort = 7000
+2019-12-12 15:43:18.827 [9] INFO - ClientAutorizador: connecting to 127.0.0.1:7000 from local end point 0.0.0.0:0.
+2019-12-12 15:43:19.834 [11] WARN - ClientAutorizador: connection refused, No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión 127.0.0.1:7000.
+2019-12-12 15:43:19.835 [6] INFO - ClientAutorizador: connecting to 127.0.0.1:7000 from local end point 0.0.0.0:0.
+2019-12-12 15:43:19.841 [9] WARN - No hay conexion: System.Net.Sockets.SocketException (0x80004005): No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión 127.0.0.1:7000
+   en System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   en System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   en Trx.Communication.Channels.Tcp.TcpClientChannel.AsyncConnectionRequestHandler(IAsyncResult asyncResult) en C:\Users\Aparicio\documents\visual studio 2017\Projects\APIWcf\Framework\Communication\Channels\Tcp\TcpClientChannel.cs:línea 327
+2019-12-12 15:43:19.842 [9] INFO - Response: -1
+2019-12-12 15:43:19.842 [9] INFO - #################### Fin ClientAutorizador ####################
+2019-12-12 15:43:20.838 [9] WARN - ClientAutorizador: connection refused, No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión 127.0.0.1:7000.
+2019-12-12 15:44:05.054 [11] WARN - #################### Inicio ClientAutorizador ####################
+2019-12-12 15:44:05.176 [11] WARN - Conectando con cliente RemoteInterface = 127.0.0.1 RemotePort = 7000
+2019-12-12 15:44:05.188 [11] INFO - ClientAutorizador: connecting to 127.0.0.1:7000 from local end point 0.0.0.0:0.
+2019-12-12 15:44:06.192 [12] WARN - ClientAutorizador: connection refused, No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión 127.0.0.1:7000.
+2019-12-12 15:44:06.193 [5] INFO - ClientAutorizador: connecting to 127.0.0.1:7000 from local end point 0.0.0.0:0.
+2019-12-12 15:44:06.200 [11] WARN - No hay conexion: System.Net.Sockets.SocketException (0x80004005): No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión 127.0.0.1:7000
+   en System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   en System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   en Trx.Communication.Channels.Tcp.TcpClientChannel.AsyncConnectionRequestHandler(IAsyncResult asyncResult) en C:\Users\Aparicio\documents\visual studio 2017\Projects\APIWcf\Framework\Communication\Channels\Tcp\TcpClientChannel.cs:línea 327
+2019-12-12 15:44:06.201 [11] INFO - Response: -1
+2019-12-12 15:44:06.201 [11] INFO - #################### Fin ClientAutorizador ####################
+2019-12-12 15:44:07.206 [11] WARN - ClientAutorizador: connection refused, No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión 127.0.0.1:7000.
+2019-12-12 15:44:59.628 [9] WARN - #################### Inicio ClientAutorizador ####################
+2019-12-12 15:44:59.781 [9] WARN - Conectando con cliente RemoteInterface = 127.0.0.1 RemotePort = 7000
+2019-12-12 15:44:59.791 [9] INFO - ClientAutorizador: connecting to 127.0.0.1:7000 from local end point 0.0.0.0:0.
+2019-12-12 15:45:00.800 [11] WARN - ClientAutorizador: connection refused, No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión 127.0.0.1:7000.
+2019-12-12 15:45:00.802 [6] INFO - ClientAutorizador: connecting to 127.0.0.1:7000 from local end point 0.0.0.0:0.
+2019-12-12 15:45:00.820 [9] WARN - No hay conexion: System.Net.Sockets.SocketException (0x80004005): No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión 127.0.0.1:7000
+   en System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   en System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   en Trx.Communication.Channels.Tcp.TcpClientChannel.AsyncConnectionRequestHandler(IAsyncResult asyncResult) en C:\Users\Aparicio\documents\visual studio 2017\Projects\APIWcf\Framework\Communication\Channels\Tcp\TcpClientChannel.cs:línea 327
+2019-12-12 15:45:00.821 [9] INFO - Response: -1
+2019-12-12 15:45:00.821 [9] INFO - #################### Fin ClientAutorizador ####################
+2019-12-12 15:45:01.806 [9] WARN - ClientAutorizador: connection refused, No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión 127.0.0.1:7000.
+2019-12-12 15:46:03.903 [11] WARN - #################### Inicio ClientAutorizador ####################
+2019-12-12 15:46:04.037 [11] WARN - Conectando con cliente RemoteInterface = 127.0.0.1 RemotePort = 7000
+2019-12-12 15:46:04.048 [11] INFO - ClientAutorizador: connecting to 127.0.0.1:7000 from local end point 0.0.0.0:0.
+2019-12-12 15:46:05.056 [13] WARN - ClientAutorizador: connection refused, No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión 127.0.0.1:7000.
+2019-12-12 15:46:05.057 [6] INFO - ClientAutorizador: connecting to 127.0.0.1:7000 from local end point 0.0.0.0:0.
+2019-12-12 15:46:05.066 [11] WARN - No hay conexion: System.Net.Sockets.SocketException (0x80004005): No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión 127.0.0.1:7000
+   en System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   en System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   en Trx.Communication.Channels.Tcp.TcpClientChannel.AsyncConnectionRequestHandler(IAsyncResult asyncResult) en C:\Users\Aparicio\documents\visual studio 2017\Projects\APIWcf\Framework\Communication\Channels\Tcp\TcpClientChannel.cs:línea 327
+2019-12-12 15:46:05.067 [11] INFO - Response: -1
+2019-12-12 15:46:05.067 [11] INFO - #################### Fin ClientAutorizador ####################
+2019-12-12 15:46:06.058 [11] WARN - ClientAutorizador: connection refused, No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión 127.0.0.1:7000.
+2019-12-12 15:48:21.198 [11] WARN - #################### Inicio ClientAutorizador ####################
+2019-12-12 15:48:21.334 [11] WARN - Conectando con cliente RemoteInterface = 127.0.0.1 RemotePort = 7000
+2019-12-12 15:48:21.342 [11] INFO - ClientAutorizador: connecting to 127.0.0.1:7000 from local end point 0.0.0.0:0.
+2019-12-12 15:48:22.349 [12] WARN - ClientAutorizador: connection refused, No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión 127.0.0.1:7000.
+2019-12-12 15:48:22.351 [6] INFO - ClientAutorizador: connecting to 127.0.0.1:7000 from local end point 0.0.0.0:0.
+2019-12-12 15:48:22.372 [11] WARN - No hay conexion: System.Net.Sockets.SocketException (0x80004005): No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión 127.0.0.1:7000
+   en System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   en System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   en Trx.Communication.Channels.Tcp.TcpClientChannel.AsyncConnectionRequestHandler(IAsyncResult asyncResult) en C:\Users\Aparicio\documents\visual studio 2017\Projects\APIWcf\Framework\Communication\Channels\Tcp\TcpClientChannel.cs:línea 327
+2019-12-12 15:48:22.373 [11] INFO - Response: -1
+2019-12-12 15:48:22.373 [11] INFO - #################### Fin ClientAutorizador ####################
+2019-12-12 15:48:23.356 [11] WARN - ClientAutorizador: connection refused, No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión 127.0.0.1:7000.
+2019-12-12 15:52:36.016 [9] WARN - #################### Inicio ClientAutorizador ####################
+2019-12-12 15:52:36.231 [9] WARN - Conectando con cliente RemoteInterface = 127.0.0.1 RemotePort = 7000
+2019-12-12 15:52:36.240 [9] INFO - ClientAutorizador: connecting to 127.0.0.1:7000 from local end point 0.0.0.0:0.
+2019-12-12 15:52:37.604 [8] WARN - ClientAutorizador: connection refused, No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión 127.0.0.1:7000.
+2019-12-12 15:52:37.605 [7] INFO - ClientAutorizador: connecting to 127.0.0.1:7000 from local end point 0.0.0.0:0.
+2019-12-12 15:52:37.641 [9] WARN - No hay conexion: System.Net.Sockets.SocketException (0x80004005): No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión 127.0.0.1:7000
+   en System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   en System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   en Trx.Communication.Channels.Tcp.TcpClientChannel.AsyncConnectionRequestHandler(IAsyncResult asyncResult) en C:\Users\Aparicio\documents\visual studio 2017\Projects\APIWcf\Framework\Communication\Channels\Tcp\TcpClientChannel.cs:línea 333
+2019-12-12 15:52:37.645 [9] INFO - Response: -1
+2019-12-12 15:52:37.645 [9] INFO - #################### Fin ClientAutorizador ####################
+2019-12-12 15:52:38.631 [9] WARN - ClientAutorizador: connection refused, No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión 127.0.0.1:7000.
+2019-12-12 15:52:41.969 [9] WARN - #################### Inicio ClientAutorizador ####################
+2019-12-12 15:52:42.069 [9] WARN - Conectando con cliente RemoteInterface = 127.0.0.1 RemotePort = 7000
+2019-12-12 15:52:42.069 [9] INFO - ClientAutorizador: connecting to 127.0.0.1:7000 from local end point 0.0.0.0:0.
+2019-12-12 15:52:43.088 [8] WARN - ClientAutorizador: connection refused, No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión 127.0.0.1:7000.
+2019-12-12 15:52:43.088 [6] INFO - ClientAutorizador: connecting to 127.0.0.1:7000 from local end point 0.0.0.0:0.
+2019-12-12 15:52:43.088 [9] WARN - No hay conexion: System.Net.Sockets.SocketException (0x80004005): No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión 127.0.0.1:7000
+   en System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   en System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   en Trx.Communication.Channels.Tcp.TcpClientChannel.AsyncConnectionRequestHandler(IAsyncResult asyncResult) en C:\Users\Aparicio\documents\visual studio 2017\Projects\APIWcf\Framework\Communication\Channels\Tcp\TcpClientChannel.cs:línea 333
+2019-12-12 15:52:43.089 [9] INFO - Response: -1
+2019-12-12 15:52:43.089 [9] INFO - #################### Fin ClientAutorizador ####################
+2019-12-12 15:52:44.109 [10] WARN - ClientAutorizador: connection refused, No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión 127.0.0.1:7000.
+2019-12-12 15:52:44.123 [8] WARN - #################### Inicio ClientAutorizador ####################
+2019-12-12 15:52:44.258 [8] WARN - Conectando con cliente RemoteInterface = 127.0.0.1 RemotePort = 7000
+2019-12-12 15:52:44.258 [8] INFO - ClientAutorizador: connecting to 127.0.0.1:7000 from local end point 0.0.0.0:0.
+2019-12-12 15:52:45.278 [9] WARN - ClientAutorizador: connection refused, No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión 127.0.0.1:7000.
+2019-12-12 15:52:45.278 [6] INFO - ClientAutorizador: connecting to 127.0.0.1:7000 from local end point 0.0.0.0:0.
+2019-12-12 15:52:45.278 [8] WARN - No hay conexion: System.Net.Sockets.SocketException (0x80004005): No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión 127.0.0.1:7000
+   en System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   en System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   en Trx.Communication.Channels.Tcp.TcpClientChannel.AsyncConnectionRequestHandler(IAsyncResult asyncResult) en C:\Users\Aparicio\documents\visual studio 2017\Projects\APIWcf\Framework\Communication\Channels\Tcp\TcpClientChannel.cs:línea 333
+2019-12-12 15:52:45.279 [8] INFO - Response: -1
+2019-12-12 15:52:45.279 [8] INFO - #################### Fin ClientAutorizador ####################
+2019-12-12 15:52:46.096 [10] WARN - #################### Inicio ClientAutorizador ####################
+2019-12-12 15:52:46.192 [10] WARN - Conectando con cliente RemoteInterface = 127.0.0.1 RemotePort = 7000
+2019-12-12 15:52:46.192 [10] INFO - ClientAutorizador: connecting to 127.0.0.1:7000 from local end point 0.0.0.0:0.
+2019-12-12 15:52:46.300 [8] WARN - ClientAutorizador: connection refused, No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión 127.0.0.1:7000.
+2019-12-12 15:52:47.210 [8] WARN - ClientAutorizador: connection refused, No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión 127.0.0.1:7000.
+2019-12-12 15:52:47.210 [6] INFO - ClientAutorizador: connecting to 127.0.0.1:7000 from local end point 0.0.0.0:0.
+2019-12-12 15:52:47.210 [10] WARN - No hay conexion: System.Net.Sockets.SocketException (0x80004005): No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión 127.0.0.1:7000
+   en System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   en System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   en Trx.Communication.Channels.Tcp.TcpClientChannel.AsyncConnectionRequestHandler(IAsyncResult asyncResult) en C:\Users\Aparicio\documents\visual studio 2017\Projects\APIWcf\Framework\Communication\Channels\Tcp\TcpClientChannel.cs:línea 333
+2019-12-12 15:52:47.211 [10] INFO - Response: -1
+2019-12-12 15:52:47.211 [10] INFO - #################### Fin ClientAutorizador ####################
+2019-12-12 15:52:48.230 [10] WARN - ClientAutorizador: connection refused, No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión 127.0.0.1:7000.
+2019-12-12 15:55:03.893 [11] WARN - #################### Inicio ClientAutorizador ####################
+2019-12-12 15:55:04.130 [11] WARN - Conectando con cliente RemoteInterface = 127.0.0.1 RemotePort = 7000
+2019-12-12 15:55:04.138 [11] INFO - ClientAutorizador: connecting to 127.0.0.1:7000 from local end point 0.0.0.0:0.
+2019-12-12 15:55:04.142 [10] INFO - ClientAutorizador: connected to 127.0.0.1:7000 from local end point 127.0.0.1:12047.
+2019-12-12 15:55:04.142 [11] WARN - Conecto con cliente
+2019-12-12 15:55:04.223 [11] INFO - ClientAutorizador message to send: H:6000360101,M:200,0:[2,3,4,7,11,12,13,22,24,25,41,42,46,48,49,60,61,62],2:************0001,3:000000,4:000000000100,7:1212155503,11:77841,12:155503,13:1212,22:022,24:36,25:00,41:APISW_12,42:9999,46:           #0112000000000000,48:001,49:858,60:40   APISWV1.0     ,61:10069,62:0001
+2019-12-12 15:55:04.233 [11] DEBUG - ClientAutorizador raw data to send (148 bytes): 
+     1 |..`.6....r8...Å.....| 00 92 60 00 36 01 01 02 00 72 38 05 80 00 C5 80 1C ** ** **
+    21 |..................U.| ** ** ** ** ** ** 00 00 00 00 00 00 00 01 00 12 12 15 55 03
+    41 |.xA.U....".6.APISW_1| 07 78 41 15 55 03 12 12 00 22 00 36 00 41 50 49 53 57 5F 31
+    61 |29999           .(  | 32 39 39 39 39 20 20 20 20 20 20 20 20 20 20 20 00 28 20 20
+    81 |         #0112000000| 20 20 20 20 20 20 20 20 20 23 30 31 31 32 30 30 30 30 30 30
+   101 |000000..001858..40  | 30 30 30 30 30 30 00 03 30 30 31 38 35 38 00 19 34 30 20 20
+   121 | APISWV1.0     ..100| 20 41 50 49 53 57 56 31 2E 30 20 20 20 20 20 00 05 31 30 30
+   141 |69..0001|             36 39 00 04 30 30 30 31
+2019-12-12 15:55:04.315 [10] INFO - ClientAutorizador: the connection was lost, the remote peer 127.0.0.1:7000 has terminated the communication, local end point 127.0.0.1:12047.
+2019-12-12 15:55:04.318 [10] INFO - ClientAutorizador: next reconnection attempt in 1 second/s.
+2019-12-12 15:55:05.330 [6] INFO - ClientAutorizador: connecting to 127.0.0.1:7000 from local end point 0.0.0.0:0.
+2019-12-12 15:55:05.330 [12] INFO - ClientAutorizador: connected to 127.0.0.1:7000 from local end point 127.0.0.1:12048.
+2019-12-12 15:55:07.252 [11] INFO - Expiro tiempo de espera de respuesta.
+2019-12-12 15:55:07.253 [11] INFO - ClientAutorizador: disconnecting from 127.0.0.1:7000, local end point 127.0.0.1:12048.
+2019-12-12 15:55:07.253 [11] INFO - Response: -1
+2019-12-12 15:55:07.254 [11] INFO - #################### Fin ClientAutorizador ####################
+2019-12-12 16:39:13.624 [16] WARN - #################### Inicio ClientAutorizador ####################
+2019-12-12 16:39:13.828 [16] WARN - Conectando con cliente RemoteInterface = 127.0.0.1 RemotePort = 7000
+2019-12-12 16:39:13.841 [16] INFO - ClientAutorizador: connecting to 127.0.0.1:7000 from local end point 0.0.0.0:0.
+2019-12-12 16:39:13.850 [18] INFO - ClientAutorizador: connected to 127.0.0.1:7000 from local end point 127.0.0.1:12216.
+2019-12-12 16:39:13.850 [16] WARN - Conecto con cliente
+2019-12-12 16:39:13.889 [16] INFO - ClientAutorizador message to send: H:6000360101,M:200,0:[2,3,4,7,11,12,13,22,24,25,41,42,46,48,49,60,61,62],2:************0001,3:000000,4:000000000100,7:1212163913,11:801635,12:163913,13:1212,22:022,24:36,25:00,41:APISW_12,42:9999,46:           #0112000000000000,48:001,49:858,60:40   APISWV1.0     ,61:10069,62:0001
+2019-12-12 16:39:13.900 [16] DEBUG - ClientAutorizador raw data to send (148 bytes): 
+     1 |..`.6....r8...Å.....| 00 92 60 00 36 01 01 02 00 72 38 05 80 00 C5 80 1C ** ** **
+    21 |..................9.| ** ** ** ** ** ** 00 00 00 00 00 00 00 01 00 12 12 16 39 13
+    41 |..5.9....".6.APISW_1| 80 16 35 16 39 13 12 12 00 22 00 36 00 41 50 49 53 57 5F 31
+    61 |29999           .(  | 32 39 39 39 39 20 20 20 20 20 20 20 20 20 20 20 00 28 20 20
+    81 |         #0112000000| 20 20 20 20 20 20 20 20 20 23 30 31 31 32 30 30 30 30 30 30
+   101 |000000..001858..40  | 30 30 30 30 30 30 00 03 30 30 31 38 35 38 00 19 34 30 20 20
+   121 | APISWV1.0     ..100| 20 41 50 49 53 57 56 31 2E 30 20 20 20 20 20 00 05 31 30 30
+   141 |69..0001|             36 39 00 04 30 30 30 31
+2019-12-12 16:39:13.914 [18] INFO - ClientAutorizador: the connection was lost, the remote peer 127.0.0.1:7000 has terminated the communication, local end point 127.0.0.1:12216.
+2019-12-12 16:39:13.916 [18] INFO - ClientAutorizador: next reconnection attempt in 1 second/s.
+2019-12-12 16:39:14.918 [6] INFO - ClientAutorizador: connecting to 127.0.0.1:7000 from local end point 0.0.0.0:0.
+2019-12-12 16:39:14.918 [14] INFO - ClientAutorizador: connected to 127.0.0.1:7000 from local end point 127.0.0.1:12217.
+2019-12-12 16:39:16.918 [16] INFO - Expiro tiempo de espera de respuesta.
+2019-12-12 16:39:16.919 [16] INFO - ClientAutorizador: disconnecting from 127.0.0.1:7000, local end point 127.0.0.1:12217.
+2019-12-12 16:39:16.920 [16] INFO - Response: -1
+2019-12-12 16:39:16.920 [16] INFO - #################### Fin ClientAutorizador ####################
+2019-12-12 21:47:06.081 [12] WARN - #################### Inicio ClientAutorizador ####################
+2019-12-12 21:47:06.415 [12] WARN - Conectando con cliente RemoteInterface = 127.0.0.1 RemotePort = 7000
+2019-12-12 21:47:06.845 [12] INFO - ClientAutorizador: connecting to 127.0.0.1:7000 from local end point 0.0.0.0:0.
+2019-12-12 21:47:09.680 [26] WARN - ClientAutorizador: connection refused, No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión 127.0.0.1:7000.
+2019-12-12 21:47:09.681 [22] INFO - ClientAutorizador: connecting to 127.0.0.1:7000 from local end point 0.0.0.0:0.
+2019-12-12 21:47:09.867 [12] WARN - No hay conexion: System.Net.Sockets.SocketException (0x80004005): No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión 127.0.0.1:7000
+   en System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   en System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   en Trx.Communication.Channels.Tcp.TcpClientChannel.AsyncConnectionRequestHandler(IAsyncResult asyncResult) en C:\Users\Aparicio\Documents\Visual Studio 2017\Projects\APIWcf\Framework\Communication\Channels\Tcp\TcpClientChannel.cs:línea 333
+2019-12-12 21:47:09.868 [12] INFO - Response: -1
+2019-12-12 21:47:09.868 [12] INFO - #################### Fin ClientAutorizador ####################
+2019-12-12 21:47:10.709 [26] WARN - ClientAutorizador: connection refused, No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión 127.0.0.1:7000.
+2019-12-12 21:55:50.732 [26] WARN - #################### Inicio ClientAutorizador ####################
+2019-12-12 21:55:51.060 [26] WARN - Conectando con cliente RemoteInterface = 127.0.0.1 RemotePort = 7000
+2019-12-12 21:55:51.061 [26] INFO - ClientAutorizador: connecting to 127.0.0.1:7000 from local end point 0.0.0.0:0.
+2019-12-12 21:55:51.063 [16] INFO - ClientAutorizador: connected to 127.0.0.1:7000 from local end point 127.0.0.1:14738.
+2019-12-12 21:55:51.064 [26] WARN - Conecto con cliente
+2019-12-12 21:55:51.823 [26] INFO - ClientAutorizador message to send: H:6000360101,M:200,0:[2,3,4,7,11,12,13,22,24,25,41,42,46,48,49,60,61,62],2:************0001,3:000000,4:000000000100,7:1212215549,11:550849,12:215549,13:1212,22:022,24:36,25:00,41:APISW_12,42:9999,46:           #0112000000000000,48:001,49:858,60:40   APISWV1.0     ,61:10069,62:0001
+2019-12-12 21:55:51.848 [26] DEBUG - ClientAutorizador raw data to send (148 bytes): 
+     1 |..`.6....r8...Å.....| 00 92 60 00 36 01 01 02 00 72 38 05 80 00 C5 80 1C ** ** **
+    21 |.................!UI| ** ** ** ** ** ** 00 00 00 00 00 00 00 01 00 12 12 21 55 49
+    41 |U.I!UI...".6.APISW_1| 55 08 49 21 55 49 12 12 00 22 00 36 00 41 50 49 53 57 5F 31
+    61 |29999           .(  | 32 39 39 39 39 20 20 20 20 20 20 20 20 20 20 20 00 28 20 20
+    81 |         #0112000000| 20 20 20 20 20 20 20 20 20 23 30 31 31 32 30 30 30 30 30 30
+   101 |000000..001858..40  | 30 30 30 30 30 30 00 03 30 30 31 38 35 38 00 19 34 30 20 20
+   121 | APISWV1.0     ..100| 20 41 50 49 53 57 56 31 2E 30 20 20 20 20 20 00 05 31 30 30
+   141 |69..0001|             36 39 00 04 30 30 30 31
+2019-12-12 21:55:54.854 [26] INFO - Expiro tiempo de espera de respuesta.
+2019-12-12 21:55:54.855 [26] INFO - ClientAutorizador: disconnecting from 127.0.0.1:7000, local end point 127.0.0.1:14738.
+2019-12-12 21:55:56.161 [26] INFO - Response: -1
+2019-12-12 21:55:56.161 [26] INFO - #################### Fin ClientAutorizador ####################
+2019-12-13 21:52:19.700 [10] WARN - #################### Inicio ClientAutorizador ####################
+2019-12-13 21:52:20.167 [10] WARN - Conectando con cliente RemoteInterface = 127.0.0.1 RemotePort = 7000
+2019-12-13 21:52:20.310 [10] INFO - ClientAutorizador: connecting to 127.0.0.1:7000 from local end point 0.0.0.0:0.
+2019-12-13 21:52:23.516 [12] WARN - ClientAutorizador: connection refused, No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión 127.0.0.1:7000.
+2019-12-13 21:52:23.518 [7] INFO - ClientAutorizador: connecting to 127.0.0.1:7000 from local end point 0.0.0.0:0.
+2019-12-13 21:52:23.789 [10] WARN - No hay conexion: System.Net.Sockets.SocketException (0x80004005): No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión 127.0.0.1:7000
+   en System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   en System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   en Trx.Communication.Channels.Tcp.TcpClientChannel.AsyncConnectionRequestHandler(IAsyncResult asyncResult) en C:\Users\Aparicio\documents\visual studio 2017\Projects\APIWcf\Framework\Communication\Channels\Tcp\TcpClientChannel.cs:línea 333
+2019-12-13 21:52:23.790 [10] INFO - Response: -1
+2019-12-13 21:52:23.790 [10] INFO - #################### Fin ClientAutorizador ####################
+2019-12-13 21:52:24.539 [10] WARN - ClientAutorizador: connection refused, No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión 127.0.0.1:7000.
+2019-12-13 21:55:58.272 [10] WARN - #################### Inicio ClientAutorizador ####################
+2019-12-13 21:55:58.411 [10] WARN - Conectando con cliente RemoteInterface = 127.0.0.1 RemotePort = 7000
+2019-12-13 21:55:58.411 [10] INFO - ClientAutorizador: connecting to 127.0.0.1:7000 from local end point 0.0.0.0:0.
+2019-12-13 21:55:59.429 [15] WARN - ClientAutorizador: connection refused, No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión 127.0.0.1:7000.
+2019-12-13 21:55:59.430 [8] INFO - ClientAutorizador: connecting to 127.0.0.1:7000 from local end point 0.0.0.0:0.
+2019-12-13 21:55:59.430 [10] WARN - No hay conexion: System.Net.Sockets.SocketException (0x80004005): No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión 127.0.0.1:7000
+   en System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   en System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   en Trx.Communication.Channels.Tcp.TcpClientChannel.AsyncConnectionRequestHandler(IAsyncResult asyncResult) en C:\Users\Aparicio\documents\visual studio 2017\Projects\APIWcf\Framework\Communication\Channels\Tcp\TcpClientChannel.cs:línea 333
+2019-12-13 21:55:59.430 [10] INFO - Response: -1
+2019-12-13 21:55:59.430 [10] INFO - #################### Fin ClientAutorizador ####################
+2019-12-13 21:56:00.451 [10] WARN - ClientAutorizador: connection refused, No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión 127.0.0.1:7000.
+2020-02-12 11:37:22.287 [18] WARN - #################### Inicio ClientAutorizador ####################
+2020-02-12 11:37:22.627 [18] WARN - Conectando con cliente RemoteInterface = 127.0.0.1 RemotePort = 7000
+2020-02-12 11:37:22.640 [18] INFO - ClientAutorizador: connecting to 127.0.0.1:7000 from local end point 0.0.0.0:0.
+2020-02-12 11:37:22.651 [14] INFO - ClientAutorizador: connected to 127.0.0.1:7000 from local end point 127.0.0.1:4315.
+2020-02-12 11:37:22.652 [18] WARN - Conecto con cliente
+2020-02-12 11:37:22.702 [18] INFO - ClientAutorizador message to send: H:6000360101,M:200,0:[2,3,4,7,11,12,13,22,24,25,41,42,46,48,49,60,61,62],2:************0001,3:000000,4:000000001000,7:0212113721,11:188704,12:113721,13:0212,22:022,24:36,25:00,41:APISW_12,42:1,46:           #0112000000000000,48:001,49:858,60:40   APISWV1.0     ,61:10069,62:0001
+2020-02-12 11:37:22.713 [18] DEBUG - ClientAutorizador raw data to send (148 bytes): 
+     1 |..`.6....r8...Å.....| 00 92 60 00 36 01 01 02 00 72 38 05 80 00 C5 80 1C ** ** **
+    21 |..................7!| ** ** ** ** ** ** 00 00 00 00 00 00 00 10 00 02 12 11 37 21
+    41 |....7!...".6.APISW_1| 18 87 04 11 37 21 02 12 00 22 00 36 00 41 50 49 53 57 5F 31
+    61 |21              .(  | 32 31 20 20 20 20 20 20 20 20 20 20 20 20 20 20 00 28 20 20
+    81 |         #0112000000| 20 20 20 20 20 20 20 20 20 23 30 31 31 32 30 30 30 30 30 30
+   101 |000000..001858..40  | 30 30 30 30 30 30 00 03 30 30 31 38 35 38 00 19 34 30 20 20
+   121 | APISWV1.0     ..100| 20 41 50 49 53 57 56 31 2E 30 20 20 20 20 20 00 05 31 30 30
+   141 |69..0001|             36 39 00 04 30 30 30 31
+2020-02-12 11:37:23.080 [14] INFO - ClientAutorizador: the connection was lost, the remote peer 127.0.0.1:7000 has terminated the communication, local end point 127.0.0.1:4315.
+2020-02-12 11:37:23.083 [14] INFO - ClientAutorizador: next reconnection attempt in 1 second/s.
+2020-02-12 11:37:24.097 [22] INFO - ClientAutorizador: connecting to 127.0.0.1:7000 from local end point 0.0.0.0:0.
+2020-02-12 11:37:24.097 [9] INFO - ClientAutorizador: connected to 127.0.0.1:7000 from local end point 127.0.0.1:4316.
+2020-02-12 11:37:25.724 [18] INFO - Expiro tiempo de espera de respuesta.
+2020-02-12 11:37:25.725 [18] INFO - ClientAutorizador: disconnecting from 127.0.0.1:7000, local end point 127.0.0.1:4316.
+2020-02-12 11:37:25.729 [18] INFO - Response: -1
+2020-02-12 11:37:25.729 [18] INFO - #################### Fin ClientAutorizador ####################
+2020-02-12 14:15:38.658 [6] WARN - #################### Inicio ClientAutorizador ####################
+2020-02-12 14:15:38.809 [6] WARN - Conectando con cliente RemoteInterface = 127.0.0.1 RemotePort = 7000
+2020-02-12 14:15:38.810 [6] INFO - ClientAutorizador: connecting to 127.0.0.1:7000 from local end point 0.0.0.0:0.
+2020-02-12 14:15:38.811 [56] INFO - ClientAutorizador: connected to 127.0.0.1:7000 from local end point 127.0.0.1:6358.
+2020-02-12 14:15:38.811 [6] WARN - Conecto con cliente
+2020-02-12 14:15:38.812 [6] INFO - ClientAutorizador message to send: H:6000360101,M:200,0:[2,3,4,7,11,12,13,22,24,25,41,42,46,48,49,60,61,62],2:************0001,3:000000,4:000000001000,7:0212141538,11:432424,12:141538,13:0212,22:022,24:36,25:00,41:APISW_12,42:1,46:           #0112000000000000,48:001,49:858,60:40   APISWV1.0     ,61:10069,62:0001
+2020-02-12 14:15:38.813 [6] DEBUG - ClientAutorizador raw data to send (148 bytes): 
+     1 |..`.6....r8...Å.....| 00 92 60 00 36 01 01 02 00 72 38 05 80 00 C5 80 1C ** ** **
+    21 |...................8| ** ** ** ** ** ** 00 00 00 00 00 00 00 10 00 02 12 14 15 38
+    41 |C$$..8...".6.APISW_1| 43 24 24 14 15 38 02 12 00 22 00 36 00 41 50 49 53 57 5F 31
+    61 |21              .(  | 32 31 20 20 20 20 20 20 20 20 20 20 20 20 20 20 00 28 20 20
+    81 |         #0112000000| 20 20 20 20 20 20 20 20 20 23 30 31 31 32 30 30 30 30 30 30
+   101 |000000..001858..40  | 30 30 30 30 30 30 00 03 30 30 31 38 35 38 00 19 34 30 20 20
+   121 | APISWV1.0     ..100| 20 41 50 49 53 57 56 31 2E 30 20 20 20 20 20 00 05 31 30 30
+   141 |69..0001|             36 39 00 04 30 30 30 31
+2020-02-12 14:15:41.825 [6] INFO - Expiro tiempo de espera de respuesta.
+2020-02-12 14:15:41.825 [6] INFO - ClientAutorizador: disconnecting from 127.0.0.1:7000, local end point 127.0.0.1:6358.
+2020-02-12 14:15:41.825 [6] INFO - Response: -1
+2020-02-12 14:15:41.825 [6] INFO - #################### Fin ClientAutorizador ####################
+2020-02-12 14:16:38.884 [57] WARN - #################### Inicio ClientAutorizador ####################
+2020-02-12 14:16:39.038 [57] WARN - Conectando con cliente RemoteInterface = 127.0.0.1 RemotePort = 7000
+2020-02-12 14:16:39.038 [57] INFO - ClientAutorizador: connecting to 127.0.0.1:7000 from local end point 0.0.0.0:0.
+2020-02-12 14:16:39.039 [57] INFO - ClientAutorizador: connected to 127.0.0.1:7000 from local end point 127.0.0.1:6370.
+2020-02-12 14:16:39.039 [57] WARN - Conecto con cliente
+2020-02-12 14:16:39.040 [57] INFO - ClientAutorizador message to send: H:6000360101,M:200,0:[2,3,4,7,11,12,13,22,24,25,41,42,46,48,49,60,61,62],2:************0001,3:000000,4:000000001000,7:0212141638,11:557604,12:141638,13:0212,22:022,24:36,25:00,41:APISW_12,42:1,46:           #0112000000000000,48:001,49:858,60:40   APISWV1.0     ,61:10069,62:0001
+2020-02-12 14:16:39.041 [57] DEBUG - ClientAutorizador raw data to send (148 bytes): 
+     1 |..`.6....r8...Å.....| 00 92 60 00 36 01 01 02 00 72 38 05 80 00 C5 80 1C ** ** **
+    21 |...................8| ** ** ** ** ** ** 00 00 00 00 00 00 00 10 00 02 12 14 16 38
+    41 |Uv...8...".6.APISW_1| 55 76 04 14 16 38 02 12 00 22 00 36 00 41 50 49 53 57 5F 31
+    61 |21              .(  | 32 31 20 20 20 20 20 20 20 20 20 20 20 20 20 20 00 28 20 20
+    81 |         #0112000000| 20 20 20 20 20 20 20 20 20 23 30 31 31 32 30 30 30 30 30 30
+   101 |000000..001858..40  | 30 30 30 30 30 30 00 03 30 30 31 38 35 38 00 19 34 30 20 20
+   121 | APISWV1.0     ..100| 20 41 50 49 53 57 56 31 2E 30 20 20 20 20 20 00 05 31 30 30
+   141 |69..0001|             36 39 00 04 30 30 30 31
+2020-02-12 14:16:42.051 [57] INFO - Expiro tiempo de espera de respuesta.
+2020-02-12 14:16:42.051 [57] INFO - ClientAutorizador: disconnecting from 127.0.0.1:7000, local end point 127.0.0.1:6370.
+2020-02-12 14:16:42.051 [57] INFO - Response: -1
+2020-02-12 14:16:42.052 [57] INFO - #################### Fin ClientAutorizador ####################
+2020-02-12 14:20:18.279 [53] WARN - #################### Inicio ClientAutorizador ####################
+2020-02-12 14:20:18.431 [53] WARN - Conectando con cliente RemoteInterface = 127.0.0.1 RemotePort = 7000
+2020-02-12 14:20:18.431 [53] INFO - ClientAutorizador: connecting to 127.0.0.1:7000 from local end point 0.0.0.0:0.
+2020-02-12 14:20:18.432 [51] INFO - ClientAutorizador: connected to 127.0.0.1:7000 from local end point 127.0.0.1:6420.
+2020-02-12 14:20:18.432 [53] WARN - Conecto con cliente
+2020-02-12 14:20:18.432 [53] INFO - ClientAutorizador message to send: H:6000360101,M:200,0:[2,3,4,7,11,12,13,22,24,25,41,42,46,48,49,60,61,62],2:************0001,3:000000,4:000000001000,7:0212142018,11:969708,12:142018,13:0212,22:022,24:36,25:00,41:APISW_12,42:1,46:           #0112000000000000,48:001,49:858,60:40   APISWV1.0     ,61:10069,62:0001
+2020-02-12 14:20:18.432 [53] DEBUG - ClientAutorizador raw data to send (148 bytes): 
+     1 |..`.6....r8...Å.....| 00 92 60 00 36 01 01 02 00 72 38 05 80 00 C5 80 1C ** ** **
+    21 |.................. .| ** ** ** ** ** ** 00 00 00 00 00 00 00 10 00 02 12 14 20 18
+    41 |.... ....".6.APISW_1| 96 97 08 14 20 18 02 12 00 22 00 36 00 41 50 49 53 57 5F 31
+    61 |21              .(  | 32 31 20 20 20 20 20 20 20 20 20 20 20 20 20 20 00 28 20 20
+    81 |         #0112000000| 20 20 20 20 20 20 20 20 20 23 30 31 31 32 30 30 30 30 30 30
+   101 |000000..001858..40  | 30 30 30 30 30 30 00 03 30 30 31 38 35 38 00 19 34 30 20 20
+   121 | APISWV1.0     ..100| 20 41 50 49 53 57 56 31 2E 30 20 20 20 20 20 00 05 31 30 30
+   141 |69..0001|             36 39 00 04 30 30 30 31
+2020-02-12 14:20:21.438 [53] INFO - Expiro tiempo de espera de respuesta.
+2020-02-12 14:20:21.438 [53] INFO - ClientAutorizador: disconnecting from 127.0.0.1:7000, local end point 127.0.0.1:6420.
+2020-02-12 14:20:21.439 [53] INFO - Response: -1
+2020-02-12 14:20:21.439 [53] INFO - #################### Fin ClientAutorizador ####################
+2020-02-12 14:21:06.357 [53] WARN - #################### Inicio ClientAutorizador ####################
+2020-02-12 14:21:06.538 [53] WARN - Conectando con cliente RemoteInterface = 127.0.0.1 RemotePort = 7000
+2020-02-12 14:21:06.539 [53] INFO - ClientAutorizador: connecting to 127.0.0.1:7000 from local end point 0.0.0.0:0.
+2020-02-12 14:21:06.540 [50] INFO - ClientAutorizador: connected to 127.0.0.1:7000 from local end point 127.0.0.1:6438.
+2020-02-12 14:21:06.540 [53] WARN - Conecto con cliente
+2020-02-12 14:21:06.540 [53] INFO - ClientAutorizador message to send: H:6000360101,M:200,0:[2,3,4,7,11,12,13,22,24,25,41,42,46,48,49,60,61,62],2:************0001,3:000000,4:000000001000,7:0212142106,11:133965,12:142106,13:0212,22:022,24:36,25:00,41:APISW_12,42:1,46:           #0112000000000000,48:001,49:858,60:40   APISWV1.0     ,61:10069,62:0001
+2020-02-12 14:21:06.541 [53] DEBUG - ClientAutorizador raw data to send (148 bytes): 
+     1 |..`.6....r8...Å.....| 00 92 60 00 36 01 01 02 00 72 38 05 80 00 C5 80 1C ** ** **
+    21 |..................!.| ** ** ** ** ** ** 00 00 00 00 00 00 00 10 00 02 12 14 21 06
+    41 |.9e.!....".6.APISW_1| 13 39 65 14 21 06 02 12 00 22 00 36 00 41 50 49 53 57 5F 31
+    61 |21              .(  | 32 31 20 20 20 20 20 20 20 20 20 20 20 20 20 20 00 28 20 20
+    81 |         #0112000000| 20 20 20 20 20 20 20 20 20 23 30 31 31 32 30 30 30 30 30 30
+   101 |000000..001858..40  | 30 30 30 30 30 30 00 03 30 30 31 38 35 38 00 19 34 30 20 20
+   121 | APISWV1.0     ..100| 20 41 50 49 53 57 56 31 2E 30 20 20 20 20 20 00 05 31 30 30
+   141 |69..0001|             36 39 00 04 30 30 30 31
+2020-02-12 14:21:06.819 [50] DEBUG - Frame delimiter of 184 byte/s fulfilled.
+2020-02-12 14:21:06.869 [50] DEBUG - Decoded field     0: [2,3,4,7,11,12,13,22,24,25,37,38,39,41,42,46,48,49,60,61,62,63]
+2020-02-12 14:21:06.873 [50] DEBUG - Decoded field     2: [************0001]
+2020-02-12 14:21:06.873 [50] DEBUG - Decoded field     3: [000000]
+2020-02-12 14:21:06.873 [50] DEBUG - Decoded field     4: [1000]
+2020-02-12 14:21:06.873 [50] DEBUG - Decoded field     7: [0212142106]
+2020-02-12 14:21:06.874 [50] DEBUG - Decoded field    11: [133965]
+2020-02-12 14:21:06.874 [50] DEBUG - Decoded field    12: [142106]
+2020-02-12 14:21:06.874 [50] DEBUG - Decoded field    13: [0212]
+2020-02-12 14:21:06.874 [50] DEBUG - Decoded field    22: [022]
+2020-02-12 14:21:06.874 [50] DEBUG - Decoded field    24: [36]
+2020-02-12 14:21:06.874 [50] DEBUG - Decoded field    25: [00]
+2020-02-12 14:21:06.876 [50] DEBUG - Decoded field    37: [1234567]
+2020-02-12 14:21:06.877 [50] DEBUG - Decoded field    38: [123456]
+2020-02-12 14:21:06.877 [50] DEBUG - Decoded field    39: [00]
+2020-02-12 14:21:06.877 [50] DEBUG - Decoded field    41: [APISW_12]
+2020-02-12 14:21:06.878 [50] DEBUG - Decoded field    42: [1]
+2020-02-12 14:21:06.878 [50] DEBUG - Decoded field    46: [           #0112000000000000]
+2020-02-12 14:21:06.878 [50] DEBUG - Decoded field    48: [001]
+2020-02-12 14:21:06.879 [50] DEBUG - Decoded field    49: [858]
+2020-02-12 14:21:06.879 [50] DEBUG - Decoded field    60: [40   APISWV1.0     ]
+2020-02-12 14:21:06.879 [50] DEBUG - Decoded field    61: [10069]
+2020-02-12 14:21:06.879 [50] DEBUG - Decoded field    62: [0001]
+2020-02-12 14:21:06.879 [50] DEBUG - Decoded field    63: [Autorizacion Ok!]
+2020-02-12 14:21:06.880 [50] DEBUG - ClientAutorizador raw received data consumed in the pipeline 186 byte/s:
+     1 |.¸`.6....r8...Å.....| 00 B8 60 00 36 01 01 02 10 72 38 05 80 0E C5 80 1E ** ** **
+    21 |..................!.| ** ** ** ** ** ** 00 00 00 00 00 00 00 10 00 02 12 14 21 06
+    41 |.9e.!....".6.1234567| 13 39 65 14 21 06 02 12 00 22 00 36 00 31 32 33 34 35 36 37
+    61 |     12345600APISW_1| 20 20 20 20 20 31 32 33 34 35 36 30 30 41 50 49 53 57 5F 31
+    81 |21              .(  | 32 31 20 20 20 20 20 20 20 20 20 20 20 20 20 20 00 28 20 20
+   101 |         #0112000000| 20 20 20 20 20 20 20 20 20 23 30 31 31 32 30 30 30 30 30 30
+   121 |000000..001858..40  | 30 30 30 30 30 30 00 03 30 30 31 38 35 38 00 19 34 30 20 20
+   141 | APISWV1.0     ..100| 20 41 50 49 53 57 56 31 2E 30 20 20 20 20 20 00 05 31 30 30
+   161 |69..0001..Autorizaci| 36 39 00 04 30 30 30 31 00 16 41 75 74 6F 72 69 7A 61 63 69
+   181 |on Ok!|               6F 6E 20 4F 6B 21
+2020-02-12 14:21:06.882 [50] INFO - ClientAutorizador received message: H:6000360101,M:210,0:[2,3,4,7,11,12,13,22,24,25,37,38,39,41,42,46,48,49,60,61,62,63],2:************0001,3:000000,4:1000,7:0212142106,11:133965,12:142106,13:0212,22:022,24:36,25:00,37:1234567,38:123456,39:00,41:APISW_12,42:1,46:           #0112000000000000,48:001,49:858,60:40   APISWV1.0     ,61:10069,62:0001,63:Autorizacion Ok!
+2020-02-12 14:21:06.883 [53] INFO - iMsg : H:6000360101,M:210,0:[2,3,4,7,11,12,13,22,24,25,37,38,39,41,42,46,48,49,60,61,62,63],2:************0001,3:000000,4:1000,7:0212142106,11:133965,12:142106,13:0212,22:022,24:36,25:00,37:1234567,38:123456,39:00,41:APISW_12,42:1,46:           #0112000000000000,48:001,49:858,60:40   APISWV1.0     ,61:10069,62:0001,63:Autorizacion Ok!
+2020-02-12 14:21:06.884 [53] INFO - ClientAutorizador: disconnecting from 127.0.0.1:7000, local end point 127.0.0.1:6438.
+2020-02-12 14:21:06.885 [53] INFO - Response: 00
+2020-02-12 14:21:06.885 [53] INFO - #################### Fin ClientAutorizador ####################
+2020-02-12 14:21:30.303 [50] WARN - #################### Inicio ClientAutorizador ####################
+2020-02-12 14:21:30.437 [50] WARN - Conectando con cliente RemoteInterface = 127.0.0.1 RemotePort = 7000
+2020-02-12 14:21:30.437 [50] INFO - ClientAutorizador: connecting to 127.0.0.1:7000 from local end point 0.0.0.0:0.
+2020-02-12 14:21:30.446 [46] INFO - ClientAutorizador: connected to 127.0.0.1:7000 from local end point 127.0.0.1:6440.
+2020-02-12 14:21:30.450 [50] WARN - Conecto con cliente
+2020-02-12 14:21:30.451 [50] INFO - ClientAutorizador message to send: H:6000360101,M:200,0:[2,3,4,7,11,12,13,22,24,25,41,42,46,48,49,60,61,62],2:************0001,3:000000,4:000000001000,7:0212142130,11:787515,12:142130,13:0212,22:022,24:36,25:00,41:APISW_12,42:1,46:           #0112000000000000,48:001,49:858,60:40   APISWV1.0     ,61:10069,62:0001
+2020-02-12 14:21:30.451 [50] DEBUG - ClientAutorizador raw data to send (148 bytes): 
+     1 |..`.6....r8...Å.....| 00 92 60 00 36 01 01 02 00 72 38 05 80 00 C5 80 1C ** ** **
+    21 |..................!0| ** ** ** ** ** ** 00 00 00 00 00 00 00 10 00 02 12 14 21 30
+    41 |xu..!0...".6.APISW_1| 78 75 15 14 21 30 02 12 00 22 00 36 00 41 50 49 53 57 5F 31
+    61 |21              .(  | 32 31 20 20 20 20 20 20 20 20 20 20 20 20 20 20 00 28 20 20
+    81 |         #0112000000| 20 20 20 20 20 20 20 20 20 23 30 31 31 32 30 30 30 30 30 30
+   101 |000000..001858..40  | 30 30 30 30 30 30 00 03 30 30 31 38 35 38 00 19 34 30 20 20
+   121 | APISWV1.0     ..100| 20 41 50 49 53 57 56 31 2E 30 20 20 20 20 20 00 05 31 30 30
+   141 |69..0001|             36 39 00 04 30 30 30 31
+2020-02-12 14:21:30.597 [46] DEBUG - Frame delimiter of 184 byte/s fulfilled.
+2020-02-12 14:21:30.598 [46] DEBUG - Decoded field     0: [2,3,4,7,11,12,13,22,24,25,37,38,39,41,42,46,48,49,60,61,62,63]
+2020-02-12 14:21:30.598 [46] DEBUG - Decoded field     2: [************0001]
+2020-02-12 14:21:30.599 [46] DEBUG - Decoded field     3: [000000]
+2020-02-12 14:21:30.599 [46] DEBUG - Decoded field     4: [1000]
+2020-02-12 14:21:30.599 [46] DEBUG - Decoded field     7: [0212142130]
+2020-02-12 14:21:30.599 [46] DEBUG - Decoded field    11: [787515]
+2020-02-12 14:21:30.599 [46] DEBUG - Decoded field    12: [142130]
+2020-02-12 14:21:30.599 [46] DEBUG - Decoded field    13: [0212]
+2020-02-12 14:21:30.600 [46] DEBUG - Decoded field    22: [022]
+2020-02-12 14:21:30.600 [46] DEBUG - Decoded field    24: [36]
+2020-02-12 14:21:30.600 [46] DEBUG - Decoded field    25: [00]
+2020-02-12 14:21:30.600 [46] DEBUG - Decoded field    37: [1234567]
+2020-02-12 14:21:30.600 [46] DEBUG - Decoded field    38: [123456]
+2020-02-12 14:21:30.600 [46] DEBUG - Decoded field    39: [00]
+2020-02-12 14:21:30.600 [46] DEBUG - Decoded field    41: [APISW_12]
+2020-02-12 14:21:30.601 [46] DEBUG - Decoded field    42: [1]
+2020-02-12 14:21:30.601 [46] DEBUG - Decoded field    46: [           #0112000000000000]
+2020-02-12 14:21:30.601 [46] DEBUG - Decoded field    48: [001]
+2020-02-12 14:21:30.601 [46] DEBUG - Decoded field    49: [858]
+2020-02-12 14:21:30.601 [46] DEBUG - Decoded field    60: [40   APISWV1.0     ]
+2020-02-12 14:21:30.601 [46] DEBUG - Decoded field    61: [10069]
+2020-02-12 14:21:30.601 [46] DEBUG - Decoded field    62: [0001]
+2020-02-12 14:21:30.601 [46] DEBUG - Decoded field    63: [Autorizacion Ok!]
+2020-02-12 14:21:30.602 [46] DEBUG - ClientAutorizador raw received data consumed in the pipeline 186 byte/s:
+     1 |.¸`.6....r8...Å.....| 00 B8 60 00 36 01 01 02 10 72 38 05 80 0E C5 80 1E ** ** **
+    21 |..................!0| ** ** ** ** ** ** 00 00 00 00 00 00 00 10 00 02 12 14 21 30
+    41 |xu..!0...".6.1234567| 78 75 15 14 21 30 02 12 00 22 00 36 00 31 32 33 34 35 36 37
+    61 |     12345600APISW_1| 20 20 20 20 20 31 32 33 34 35 36 30 30 41 50 49 53 57 5F 31
+    81 |21              .(  | 32 31 20 20 20 20 20 20 20 20 20 20 20 20 20 20 00 28 20 20
+   101 |         #0112000000| 20 20 20 20 20 20 20 20 20 23 30 31 31 32 30 30 30 30 30 30
+   121 |000000..001858..40  | 30 30 30 30 30 30 00 03 30 30 31 38 35 38 00 19 34 30 20 20
+   141 | APISWV1.0     ..100| 20 41 50 49 53 57 56 31 2E 30 20 20 20 20 20 00 05 31 30 30
+   161 |69..0001..Autorizaci| 36 39 00 04 30 30 30 31 00 16 41 75 74 6F 72 69 7A 61 63 69
+   181 |on Ok!|               6F 6E 20 4F 6B 21
+2020-02-12 14:21:30.602 [46] INFO - ClientAutorizador received message: H:6000360101,M:210,0:[2,3,4,7,11,12,13,22,24,25,37,38,39,41,42,46,48,49,60,61,62,63],2:************0001,3:000000,4:1000,7:0212142130,11:787515,12:142130,13:0212,22:022,24:36,25:00,37:1234567,38:123456,39:00,41:APISW_12,42:1,46:           #0112000000000000,48:001,49:858,60:40   APISWV1.0     ,61:10069,62:0001,63:Autorizacion Ok!
+2020-02-12 14:21:30.603 [50] INFO - iMsg : H:6000360101,M:210,0:[2,3,4,7,11,12,13,22,24,25,37,38,39,41,42,46,48,49,60,61,62,63],2:************0001,3:000000,4:1000,7:0212142130,11:787515,12:142130,13:0212,22:022,24:36,25:00,37:1234567,38:123456,39:00,41:APISW_12,42:1,46:           #0112000000000000,48:001,49:858,60:40   APISWV1.0     ,61:10069,62:0001,63:Autorizacion Ok!
+2020-02-12 14:21:30.603 [50] INFO - ClientAutorizador: disconnecting from 127.0.0.1:7000, local end point 127.0.0.1:6440.
+2020-02-12 14:21:30.603 [50] INFO - Response: 00
+2020-02-12 14:21:30.604 [50] INFO - #################### Fin ClientAutorizador ####################
+2020-02-12 14:51:51.077 [35] WARN - #################### Inicio ClientAutorizador ####################
+2020-02-12 14:51:51.236 [35] WARN - Conectando con cliente RemoteInterface = 127.0.0.1 RemotePort = 7000
+2020-02-12 14:51:51.238 [35] INFO - ClientAutorizador: connecting to 127.0.0.1:7000 from local end point 0.0.0.0:0.
+2020-02-12 14:51:51.239 [29] INFO - ClientAutorizador: connected to 127.0.0.1:7000 from local end point 127.0.0.1:6812.
+2020-02-12 14:51:51.245 [35] WARN - Conecto con cliente
+2020-02-12 14:51:51.248 [35] INFO - ClientAutorizador message to send: H:6000360101,M:200,0:[2,3,4,7,11,12,13,22,24,25,41,42,46,48,49,60,61,62],2:************0001,3:000000,4:000000001000,7:0212145151,11:37131,12:145151,13:0212,22:022,24:36,25:00,41:APISW_12,42:1,46:           #0112000000000000,48:001,49:858,60:40   APISWV1.0     ,61:10069,62:0001
+2020-02-12 14:51:51.250 [35] DEBUG - ClientAutorizador raw data to send (148 bytes): 
+     1 |..`.6....r8...Å.....| 00 92 60 00 36 01 01 02 00 72 38 05 80 00 C5 80 1C ** ** **
+    21 |..................QQ| ** ** ** ** ** ** 00 00 00 00 00 00 00 10 00 02 12 14 51 51
+    41 |.q1.QQ...".6.APISW_1| 03 71 31 14 51 51 02 12 00 22 00 36 00 41 50 49 53 57 5F 31
+    61 |21              .(  | 32 31 20 20 20 20 20 20 20 20 20 20 20 20 20 20 00 28 20 20
+    81 |         #0112000000| 20 20 20 20 20 20 20 20 20 23 30 31 31 32 30 30 30 30 30 30
+   101 |000000..001858..40  | 30 30 30 30 30 30 00 03 30 30 31 38 35 38 00 19 34 30 20 20
+   121 | APISWV1.0     ..100| 20 41 50 49 53 57 56 31 2E 30 20 20 20 20 20 00 05 31 30 30
+   141 |69..0001|             36 39 00 04 30 30 30 31
+2020-02-12 14:51:51.573 [29] DEBUG - Frame delimiter of 184 byte/s fulfilled.
+2020-02-12 14:51:51.574 [29] DEBUG - Decoded field     0: [2,3,4,7,11,12,13,22,24,25,37,38,39,41,42,46,48,49,60,61,62,63]
+2020-02-12 14:51:51.574 [29] DEBUG - Decoded field     2: [************0001]
+2020-02-12 14:51:51.575 [29] DEBUG - Decoded field     3: [000000]
+2020-02-12 14:51:51.575 [29] DEBUG - Decoded field     4: [1000]
+2020-02-12 14:51:51.575 [29] DEBUG - Decoded field     7: [0212145151]
+2020-02-12 14:51:51.576 [29] DEBUG - Decoded field    11: [37131]
+2020-02-12 14:51:51.576 [29] DEBUG - Decoded field    12: [145151]
+2020-02-12 14:51:51.576 [29] DEBUG - Decoded field    13: [0212]
+2020-02-12 14:51:51.577 [29] DEBUG - Decoded field    22: [022]
+2020-02-12 14:51:51.577 [29] DEBUG - Decoded field    24: [36]
+2020-02-12 14:51:51.577 [29] DEBUG - Decoded field    25: [00]
+2020-02-12 14:51:51.577 [29] DEBUG - Decoded field    37: [1234567]
+2020-02-12 14:51:51.577 [29] DEBUG - Decoded field    38: [123456]
+2020-02-12 14:51:51.577 [29] DEBUG - Decoded field    39: [00]
+2020-02-12 14:51:51.577 [29] DEBUG - Decoded field    41: [APISW_12]
+2020-02-12 14:51:51.578 [29] DEBUG - Decoded field    42: [1]
+2020-02-12 14:51:51.578 [29] DEBUG - Decoded field    46: [           #0112000000000000]
+2020-02-12 14:51:51.578 [29] DEBUG - Decoded field    48: [001]
+2020-02-12 14:51:51.578 [29] DEBUG - Decoded field    49: [858]
+2020-02-12 14:51:51.578 [29] DEBUG - Decoded field    60: [40   APISWV1.0     ]
+2020-02-12 14:51:51.579 [29] DEBUG - Decoded field    61: [10069]
+2020-02-12 14:51:51.579 [29] DEBUG - Decoded field    62: [0001]
+2020-02-12 14:51:51.579 [29] DEBUG - Decoded field    63: [Autorizacion Ok!]
+2020-02-12 14:51:51.579 [29] DEBUG - ClientAutorizador raw received data consumed in the pipeline 186 byte/s:
+     1 |.¸`.6....r8...Å.....| 00 B8 60 00 36 01 01 02 10 72 38 05 80 0E C5 80 1E ** ** **
+    21 |..................QQ| ** ** ** ** ** ** 00 00 00 00 00 00 00 10 00 02 12 14 51 51
+    41 |.q1.QQ...".6.1234567| 03 71 31 14 51 51 02 12 00 22 00 36 00 31 32 33 34 35 36 37
+    61 |     12345600APISW_1| 20 20 20 20 20 31 32 33 34 35 36 30 30 41 50 49 53 57 5F 31
+    81 |21              .(  | 32 31 20 20 20 20 20 20 20 20 20 20 20 20 20 20 00 28 20 20
+   101 |         #0112000000| 20 20 20 20 20 20 20 20 20 23 30 31 31 32 30 30 30 30 30 30
+   121 |000000..001858..40  | 30 30 30 30 30 30 00 03 30 30 31 38 35 38 00 19 34 30 20 20
+   141 | APISWV1.0     ..100| 20 41 50 49 53 57 56 31 2E 30 20 20 20 20 20 00 05 31 30 30
+   161 |69..0001..Autorizaci| 36 39 00 04 30 30 30 31 00 16 41 75 74 6F 72 69 7A 61 63 69
+   181 |on Ok!|               6F 6E 20 4F 6B 21
+2020-02-12 14:51:51.581 [29] INFO - ClientAutorizador received message: H:6000360101,M:210,0:[2,3,4,7,11,12,13,22,24,25,37,38,39,41,42,46,48,49,60,61,62,63],2:************0001,3:000000,4:1000,7:0212145151,11:37131,12:145151,13:0212,22:022,24:36,25:00,37:1234567,38:123456,39:00,41:APISW_12,42:1,46:           #0112000000000000,48:001,49:858,60:40   APISWV1.0     ,61:10069,62:0001,63:Autorizacion Ok!
+2020-02-12 14:51:58.814 [35] INFO - iMsg : H:6000360101,M:210,0:[2,3,4,7,11,12,13,22,24,25,37,38,39,41,42,46,48,49,60,61,62,63],2:************0001,3:000000,4:1000,7:0212145151,11:37131,12:145151,13:0212,22:022,24:36,25:00,37:1234567,38:123456,39:00,41:APISW_12,42:1,46:           #0112000000000000,48:001,49:858,60:40   APISWV1.0     ,61:10069,62:0001,63:Autorizacion Ok!
+2020-02-12 14:52:02.258 [35] INFO - ClientAutorizador: disconnecting from 127.0.0.1:7000, local end point 127.0.0.1:6812.
+2020-02-12 14:53:19.086 [35] INFO - Response: 00
+2020-02-12 14:53:20.339 [35] INFO - #################### Fin ClientAutorizador ####################
+2020-02-12 15:19:51.254 [10] WARN - #################### Inicio ClientAutorizador ####################
+2020-02-12 15:19:51.513 [10] WARN - Conectando con cliente RemoteInterface = 127.0.0.1 RemotePort = 7000
+2020-02-12 15:19:51.527 [10] INFO - ClientAutorizador: connecting to 127.0.0.1:7000 from local end point 0.0.0.0:0.
+2020-02-12 15:19:51.531 [19] INFO - ClientAutorizador: connected to 127.0.0.1:7000 from local end point 127.0.0.1:7177.
+2020-02-12 15:19:51.535 [10] WARN - Conecto con cliente
+2020-02-12 15:19:51.563 [10] INFO - ClientAutorizador message to send: H:6000360101,M:200,0:[2,3,4,7,11,12,13,22,24,25,41,42,46,48,49,60,61,62],2:************0001,3:000000,4:000000001000,7:0212151951,11:923772,12:151951,13:0212,22:022,24:36,25:00,41:APISW_12,42:1,46:           #0112000000000000,48:001,49:858,60:40   APISWV1.0     ,61:10069,62:0001
+2020-02-12 15:19:51.578 [10] DEBUG - ClientAutorizador raw data to send (148 bytes): 
+     1 |..`.6....r8...Å.....| 00 92 60 00 36 01 01 02 00 72 38 05 80 00 C5 80 1C ** ** **
+    21 |...................Q| ** ** ** ** ** ** 00 00 00 00 00 00 00 10 00 02 12 15 19 51
+    41 |.7r..Q...".6.APISW_1| 92 37 72 15 19 51 02 12 00 22 00 36 00 41 50 49 53 57 5F 31
+    61 |21              .(  | 32 31 20 20 20 20 20 20 20 20 20 20 20 20 20 20 00 28 20 20
+    81 |         #0112000000| 20 20 20 20 20 20 20 20 20 23 30 31 31 32 30 30 30 30 30 30
+   101 |000000..001858..40  | 30 30 30 30 30 30 00 03 30 30 31 38 35 38 00 19 34 30 20 20
+   121 | APISWV1.0     ..100| 20 41 50 49 53 57 56 31 2E 30 20 20 20 20 20 00 05 31 30 30
+   141 |69..0001|             36 39 00 04 30 30 30 31
+2020-02-12 15:19:51.693 [19] DEBUG - Frame delimiter of 184 byte/s fulfilled.
+2020-02-12 15:19:51.706 [19] DEBUG - Decoded field     0: [2,3,4,7,11,12,13,22,24,25,37,38,39,41,42,46,48,49,60,61,62,63]
+2020-02-12 15:19:51.708 [19] DEBUG - Decoded field     2: [************0001]
+2020-02-12 15:19:51.709 [19] DEBUG - Decoded field     3: [000000]
+2020-02-12 15:19:51.709 [19] DEBUG - Decoded field     4: [1000]
+2020-02-12 15:19:51.710 [19] DEBUG - Decoded field     7: [0212151951]
+2020-02-12 15:19:51.710 [19] DEBUG - Decoded field    11: [923772]
+2020-02-12 15:19:51.710 [19] DEBUG - Decoded field    12: [151951]
+2020-02-12 15:19:51.710 [19] DEBUG - Decoded field    13: [0212]
+2020-02-12 15:19:51.712 [19] DEBUG - Decoded field    22: [022]
+2020-02-12 15:19:51.712 [19] DEBUG - Decoded field    24: [36]
+2020-02-12 15:19:51.712 [19] DEBUG - Decoded field    25: [00]
+2020-02-12 15:19:51.713 [19] DEBUG - Decoded field    37: [1234567]
+2020-02-12 15:19:51.714 [19] DEBUG - Decoded field    38: [123456]
+2020-02-12 15:19:51.715 [19] DEBUG - Decoded field    39: [00]
+2020-02-12 15:19:51.715 [19] DEBUG - Decoded field    41: [APISW_12]
+2020-02-12 15:19:51.715 [19] DEBUG - Decoded field    42: [1]
+2020-02-12 15:19:51.716 [19] DEBUG - Decoded field    46: [           #0112000000000000]
+2020-02-12 15:19:51.716 [19] DEBUG - Decoded field    48: [001]
+2020-02-12 15:19:51.716 [19] DEBUG - Decoded field    49: [858]
+2020-02-12 15:19:51.716 [19] DEBUG - Decoded field    60: [40   APISWV1.0     ]
+2020-02-12 15:19:51.716 [19] DEBUG - Decoded field    61: [10069]
+2020-02-12 15:19:51.716 [19] DEBUG - Decoded field    62: [0001]
+2020-02-12 15:19:51.716 [19] DEBUG - Decoded field    63: [Autorizacion Ok!]
+2020-02-12 15:19:51.717 [19] DEBUG - ClientAutorizador raw received data consumed in the pipeline 186 byte/s:
+     1 |.¸`.6....r8...Å.....| 00 B8 60 00 36 01 01 02 10 72 38 05 80 0E C5 80 1E ** ** **
+    21 |...................Q| ** ** ** ** ** ** 00 00 00 00 00 00 00 10 00 02 12 15 19 51
+    41 |.7r..Q...".6.1234567| 92 37 72 15 19 51 02 12 00 22 00 36 00 31 32 33 34 35 36 37
+    61 |     12345600APISW_1| 20 20 20 20 20 31 32 33 34 35 36 30 30 41 50 49 53 57 5F 31
+    81 |21              .(  | 32 31 20 20 20 20 20 20 20 20 20 20 20 20 20 20 00 28 20 20
+   101 |         #0112000000| 20 20 20 20 20 20 20 20 20 23 30 31 31 32 30 30 30 30 30 30
+   121 |000000..001858..40  | 30 30 30 30 30 30 00 03 30 30 31 38 35 38 00 19 34 30 20 20
+   141 | APISWV1.0     ..100| 20 41 50 49 53 57 56 31 2E 30 20 20 20 20 20 00 05 31 30 30
+   161 |69..0001..Autorizaci| 36 39 00 04 30 30 30 31 00 16 41 75 74 6F 72 69 7A 61 63 69
+   181 |on Ok!|               6F 6E 20 4F 6B 21
+2020-02-12 15:19:51.719 [19] INFO - ClientAutorizador received message: H:6000360101,M:210,0:[2,3,4,7,11,12,13,22,24,25,37,38,39,41,42,46,48,49,60,61,62,63],2:************0001,3:000000,4:1000,7:0212151951,11:923772,12:151951,13:0212,22:022,24:36,25:00,37:1234567,38:123456,39:00,41:APISW_12,42:1,46:           #0112000000000000,48:001,49:858,60:40   APISWV1.0     ,61:10069,62:0001,63:Autorizacion Ok!
+2020-02-12 15:19:51.721 [10] INFO - iMsg : H:6000360101,M:210,0:[2,3,4,7,11,12,13,22,24,25,37,38,39,41,42,46,48,49,60,61,62,63],2:************0001,3:000000,4:1000,7:0212151951,11:923772,12:151951,13:0212,22:022,24:36,25:00,37:1234567,38:123456,39:00,41:APISW_12,42:1,46:           #0112000000000000,48:001,49:858,60:40   APISWV1.0     ,61:10069,62:0001,63:Autorizacion Ok!
+2020-02-12 15:19:51.722 [10] INFO - ClientAutorizador: disconnecting from 127.0.0.1:7000, local end point 127.0.0.1:7177.
+2020-02-12 15:19:51.725 [10] INFO - Response: 00
+2020-02-12 15:19:51.725 [10] INFO - #################### Fin ClientAutorizador ####################
+2020-02-12 16:53:47.342 [3] WARN - #################### Inicio ClientAutorizador ####################
+2020-02-12 16:53:47.618 [3] WARN - Conectando con cliente RemoteInterface = 127.0.0.1 RemotePort = 7000
+2020-02-12 16:53:47.632 [3] INFO - ClientAutorizador: connecting to 127.0.0.1:7000 from local end point 0.0.0.0:0.
+2020-02-12 16:53:47.638 [27] INFO - ClientAutorizador: connected to 127.0.0.1:7000 from local end point 127.0.0.1:7850.
+2020-02-12 16:53:47.640 [3] WARN - Conecto con cliente
+2020-02-12 16:53:47.682 [3] INFO - ClientAutorizador message to send: H:6000360101,M:200,0:[2,3,4,7,11,12,13,22,24,25,41,42,46,48,49,60,61,62],2:************0001,3:000000,4:000000001000,7:0212165339,11:982398,12:165339,13:0212,22:022,24:36,25:00,41:APISW_12,42:1,46:           #0112000000000000,48:001,49:858,60:40   APISWV1.0     ,61:10069,62:0001
+2020-02-12 16:53:47.696 [3] DEBUG - ClientAutorizador raw data to send (148 bytes): 
+     1 |..`.6....r8...Å.....| 00 92 60 00 36 01 01 02 00 72 38 05 80 00 C5 80 1C ** ** **
+    21 |..................S9| ** ** ** ** ** ** 00 00 00 00 00 00 00 10 00 02 12 16 53 39
+    41 |.#..S9...".6.APISW_1| 98 23 98 16 53 39 02 12 00 22 00 36 00 41 50 49 53 57 5F 31
+    61 |21              .(  | 32 31 20 20 20 20 20 20 20 20 20 20 20 20 20 20 00 28 20 20
+    81 |         #0112000000| 20 20 20 20 20 20 20 20 20 23 30 31 31 32 30 30 30 30 30 30
+   101 |000000..001858..40  | 30 30 30 30 30 30 00 03 30 30 31 38 35 38 00 19 34 30 20 20
+   121 | APISWV1.0     ..100| 20 41 50 49 53 57 56 31 2E 30 20 20 20 20 20 00 05 31 30 30
+   141 |69..0001|             36 39 00 04 30 30 30 31
+2020-02-12 16:53:47.764 [27] DEBUG - Frame delimiter of 184 byte/s fulfilled.
+2020-02-12 16:53:47.783 [27] DEBUG - Decoded field     0: [2,3,4,7,11,12,13,22,24,25,37,38,39,41,42,46,48,49,60,61,62,63]
+2020-02-12 16:53:47.787 [27] DEBUG - Decoded field     2: [************0001]
+2020-02-12 16:53:47.788 [27] DEBUG - Decoded field     3: [000000]
+2020-02-12 16:53:47.789 [27] DEBUG - Decoded field     4: [1000]
+2020-02-12 16:53:47.789 [27] DEBUG - Decoded field     7: [0212165339]
+2020-02-12 16:53:47.789 [27] DEBUG - Decoded field    11: [982398]
+2020-02-12 16:53:47.789 [27] DEBUG - Decoded field    12: [165339]
+2020-02-12 16:53:47.790 [27] DEBUG - Decoded field    13: [0212]
+2020-02-12 16:53:47.790 [27] DEBUG - Decoded field    22: [022]
+2020-02-12 16:53:47.790 [27] DEBUG - Decoded field    24: [36]
+2020-02-12 16:53:47.790 [27] DEBUG - Decoded field    25: [00]
+2020-02-12 16:53:47.792 [27] DEBUG - Decoded field    37: [1234567]
+2020-02-12 16:53:47.793 [27] DEBUG - Decoded field    38: [123456]
+2020-02-12 16:53:47.794 [27] DEBUG - Decoded field    39: [00]
+2020-02-12 16:53:47.794 [27] DEBUG - Decoded field    41: [APISW_12]
+2020-02-12 16:53:47.794 [27] DEBUG - Decoded field    42: [1]
+2020-02-12 16:53:47.794 [27] DEBUG - Decoded field    46: [           #0112000000000000]
+2020-02-12 16:53:47.794 [27] DEBUG - Decoded field    48: [001]
+2020-02-12 16:53:47.795 [27] DEBUG - Decoded field    49: [858]
+2020-02-12 16:53:47.795 [27] DEBUG - Decoded field    60: [40   APISWV1.0     ]
+2020-02-12 16:53:47.795 [27] DEBUG - Decoded field    61: [10069]
+2020-02-12 16:53:47.795 [27] DEBUG - Decoded field    62: [0001]
+2020-02-12 16:53:47.795 [27] DEBUG - Decoded field    63: [Autorizacion Ok!]
+2020-02-12 16:53:47.796 [27] DEBUG - ClientAutorizador raw received data consumed in the pipeline 186 byte/s:
+     1 |.¸`.6....r8...Å.....| 00 B8 60 00 36 01 01 02 10 72 38 05 80 0E C5 80 1E ** ** **
+    21 |..................S9| ** ** ** ** ** ** 00 00 00 00 00 00 00 10 00 02 12 16 53 39
+    41 |.#..S9...".6.1234567| 98 23 98 16 53 39 02 12 00 22 00 36 00 31 32 33 34 35 36 37
+    61 |     12345600APISW_1| 20 20 20 20 20 31 32 33 34 35 36 30 30 41 50 49 53 57 5F 31
+    81 |21              .(  | 32 31 20 20 20 20 20 20 20 20 20 20 20 20 20 20 00 28 20 20
+   101 |         #0112000000| 20 20 20 20 20 20 20 20 20 23 30 31 31 32 30 30 30 30 30 30
+   121 |000000..001858..40  | 30 30 30 30 30 30 00 03 30 30 31 38 35 38 00 19 34 30 20 20
+   141 | APISWV1.0     ..100| 20 41 50 49 53 57 56 31 2E 30 20 20 20 20 20 00 05 31 30 30
+   161 |69..0001..Autorizaci| 36 39 00 04 30 30 30 31 00 16 41 75 74 6F 72 69 7A 61 63 69
+   181 |on Ok!|               6F 6E 20 4F 6B 21
+2020-02-12 16:53:47.799 [27] INFO - ClientAutorizador received message: H:6000360101,M:210,0:[2,3,4,7,11,12,13,22,24,25,37,38,39,41,42,46,48,49,60,61,62,63],2:************0001,3:000000,4:1000,7:0212165339,11:982398,12:165339,13:0212,22:022,24:36,25:00,37:1234567,38:123456,39:00,41:APISW_12,42:1,46:           #0112000000000000,48:001,49:858,60:40   APISWV1.0     ,61:10069,62:0001,63:Autorizacion Ok!
+2020-02-12 16:53:47.801 [3] INFO - iMsg : H:6000360101,M:210,0:[2,3,4,7,11,12,13,22,24,25,37,38,39,41,42,46,48,49,60,61,62,63],2:************0001,3:000000,4:1000,7:0212165339,11:982398,12:165339,13:0212,22:022,24:36,25:00,37:1234567,38:123456,39:00,41:APISW_12,42:1,46:           #0112000000000000,48:001,49:858,60:40   APISWV1.0     ,61:10069,62:0001,63:Autorizacion Ok!
+2020-02-12 16:53:47.802 [3] INFO - ClientAutorizador: disconnecting from 127.0.0.1:7000, local end point 127.0.0.1:7850.
+2020-02-12 16:53:47.806 [3] INFO - Response: 00
+2020-02-12 16:53:47.806 [3] INFO - #################### Fin ClientAutorizador ####################
+2020-02-12 16:54:14.841 [3] WARN - #################### Inicio ClientAutorizador ####################
+2020-02-12 16:54:14.997 [3] WARN - Conectando con cliente RemoteInterface = 127.0.0.1 RemotePort = 7000
+2020-02-12 16:54:14.997 [3] INFO - ClientAutorizador: connecting to 127.0.0.1:7000 from local end point 0.0.0.0:0.
+2020-02-12 16:54:14.998 [27] INFO - ClientAutorizador: connected to 127.0.0.1:7000 from local end point 127.0.0.1:7868.
+2020-02-12 16:54:14.998 [3] WARN - Conecto con cliente
+2020-02-12 16:54:14.999 [3] INFO - ClientAutorizador message to send: H:6000360101,M:200,0:[2,3,4,7,11,12,13,22,24,25,41,42,46,48,49,60,61,62],2:************0001,3:000000,4:000000001000,7:0212165354,11:881234,12:165354,13:0212,22:022,24:36,25:00,41:APISW_12,42:1,46:           #0112000000000000,48:001,49:858,60:40   APISWV1.0     ,61:10069,62:0001
+2020-02-12 16:54:14.999 [3] DEBUG - ClientAutorizador raw data to send (148 bytes): 
+     1 |..`.6....r8...Å.....| 00 92 60 00 36 01 01 02 00 72 38 05 80 00 C5 80 1C ** ** **
+    21 |..................ST| ** ** ** ** ** ** 00 00 00 00 00 00 00 10 00 02 12 16 53 54
+    41 |..4.ST...".6.APISW_1| 88 12 34 16 53 54 02 12 00 22 00 36 00 41 50 49 53 57 5F 31
+    61 |21              .(  | 32 31 20 20 20 20 20 20 20 20 20 20 20 20 20 20 00 28 20 20
+    81 |         #0112000000| 20 20 20 20 20 20 20 20 20 23 30 31 31 32 30 30 30 30 30 30
+   101 |000000..001858..40  | 30 30 30 30 30 30 00 03 30 30 31 38 35 38 00 19 34 30 20 20
+   121 | APISWV1.0     ..100| 20 41 50 49 53 57 56 31 2E 30 20 20 20 20 20 00 05 31 30 30
+   141 |69..0001|             36 39 00 04 30 30 30 31
+2020-02-12 16:54:15.041 [29] DEBUG - Frame delimiter of 184 byte/s fulfilled.
+2020-02-12 16:54:15.042 [29] DEBUG - Decoded field     0: [2,3,4,7,11,12,13,22,24,25,37,38,39,41,42,46,48,49,60,61,62,63]
+2020-02-12 16:54:15.042 [29] DEBUG - Decoded field     2: [************0001]
+2020-02-12 16:54:15.042 [29] DEBUG - Decoded field     3: [000000]
+2020-02-12 16:54:15.043 [29] DEBUG - Decoded field     4: [1000]
+2020-02-12 16:54:15.043 [29] DEBUG - Decoded field     7: [0212165354]
+2020-02-12 16:54:15.043 [29] DEBUG - Decoded field    11: [881234]
+2020-02-12 16:54:15.043 [29] DEBUG - Decoded field    12: [165354]
+2020-02-12 16:54:15.043 [29] DEBUG - Decoded field    13: [0212]
+2020-02-12 16:54:15.043 [29] DEBUG - Decoded field    22: [022]
+2020-02-12 16:54:15.043 [29] DEBUG - Decoded field    24: [36]
+2020-02-12 16:54:15.044 [29] DEBUG - Decoded field    25: [00]
+2020-02-12 16:54:15.044 [29] DEBUG - Decoded field    37: [1234567]
+2020-02-12 16:54:15.044 [29] DEBUG - Decoded field    38: [123456]
+2020-02-12 16:54:15.044 [29] DEBUG - Decoded field    39: [00]
+2020-02-12 16:54:15.044 [29] DEBUG - Decoded field    41: [APISW_12]
+2020-02-12 16:54:15.044 [29] DEBUG - Decoded field    42: [1]
+2020-02-12 16:54:15.045 [29] DEBUG - Decoded field    46: [           #0112000000000000]
+2020-02-12 16:54:15.045 [29] DEBUG - Decoded field    48: [001]
+2020-02-12 16:54:15.045 [29] DEBUG - Decoded field    49: [858]
+2020-02-12 16:54:15.045 [29] DEBUG - Decoded field    60: [40   APISWV1.0     ]
+2020-02-12 16:54:15.045 [29] DEBUG - Decoded field    61: [10069]
+2020-02-12 16:54:15.045 [29] DEBUG - Decoded field    62: [0001]
+2020-02-12 16:54:15.046 [29] DEBUG - Decoded field    63: [Autorizacion Ok!]
+2020-02-12 16:54:15.046 [29] DEBUG - ClientAutorizador raw received data consumed in the pipeline 186 byte/s:
+     1 |.¸`.6....r8...Å.....| 00 B8 60 00 36 01 01 02 10 72 38 05 80 0E C5 80 1E ** ** **
+    21 |..................ST| ** ** ** ** ** ** 00 00 00 00 00 00 00 10 00 02 12 16 53 54
+    41 |..4.ST...".6.1234567| 88 12 34 16 53 54 02 12 00 22 00 36 00 31 32 33 34 35 36 37
+    61 |     12345600APISW_1| 20 20 20 20 20 31 32 33 34 35 36 30 30 41 50 49 53 57 5F 31
+    81 |21              .(  | 32 31 20 20 20 20 20 20 20 20 20 20 20 20 20 20 00 28 20 20
+   101 |         #0112000000| 20 20 20 20 20 20 20 20 20 23 30 31 31 32 30 30 30 30 30 30
+   121 |000000..001858..40  | 30 30 30 30 30 30 00 03 30 30 31 38 35 38 00 19 34 30 20 20
+   141 | APISWV1.0     ..100| 20 41 50 49 53 57 56 31 2E 30 20 20 20 20 20 00 05 31 30 30
+   161 |69..0001..Autorizaci| 36 39 00 04 30 30 30 31 00 16 41 75 74 6F 72 69 7A 61 63 69
+   181 |on Ok!|               6F 6E 20 4F 6B 21
+2020-02-12 16:54:15.047 [29] INFO - ClientAutorizador received message: H:6000360101,M:210,0:[2,3,4,7,11,12,13,22,24,25,37,38,39,41,42,46,48,49,60,61,62,63],2:************0001,3:000000,4:1000,7:0212165354,11:881234,12:165354,13:0212,22:022,24:36,25:00,37:1234567,38:123456,39:00,41:APISW_12,42:1,46:           #0112000000000000,48:001,49:858,60:40   APISWV1.0     ,61:10069,62:0001,63:Autorizacion Ok!
+2020-02-12 16:54:15.047 [3] INFO - iMsg : H:6000360101,M:210,0:[2,3,4,7,11,12,13,22,24,25,37,38,39,41,42,46,48,49,60,61,62,63],2:************0001,3:000000,4:1000,7:0212165354,11:881234,12:165354,13:0212,22:022,24:36,25:00,37:1234567,38:123456,39:00,41:APISW_12,42:1,46:           #0112000000000000,48:001,49:858,60:40   APISWV1.0     ,61:10069,62:0001,63:Autorizacion Ok!
+2020-02-12 16:54:15.047 [3] INFO - ClientAutorizador: disconnecting from 127.0.0.1:7000, local end point 127.0.0.1:7868.
+2020-02-12 16:54:15.048 [3] INFO - Response: 00
+2020-02-12 16:54:15.048 [3] INFO - #################### Fin ClientAutorizador ####################
+2020-02-12 16:54:47.685 [3] WARN - #################### Inicio ClientAutorizador ####################
+2020-02-12 16:54:47.867 [3] WARN - Conectando con cliente RemoteInterface = 127.0.0.1 RemotePort = 7000
+2020-02-12 16:54:47.868 [3] INFO - ClientAutorizador: connecting to 127.0.0.1:7000 from local end point 0.0.0.0:0.
+2020-02-12 16:54:47.868 [27] INFO - ClientAutorizador: connected to 127.0.0.1:7000 from local end point 127.0.0.1:7871.
+2020-02-12 16:54:47.869 [3] WARN - Conecto con cliente
+2020-02-12 16:54:47.870 [3] INFO - ClientAutorizador message to send: H:6000360101,M:200,0:[2,3,4,7,11,12,13,22,24,25,41,42,46,48,49,60,61,62],2:************0001,3:000000,4:000000001000,7:0212165420,11:277435,12:165420,13:0212,22:022,24:36,25:00,41:APISW_12,42:1,46:           #0112000000000000,48:001,49:858,60:40   APISWV1.0     ,61:10069,62:0001
+2020-02-12 16:54:47.870 [3] DEBUG - ClientAutorizador raw data to send (148 bytes): 
+     1 |..`.6....r8...Å.....| 00 92 60 00 36 01 01 02 00 72 38 05 80 00 C5 80 1C ** ** **
+    21 |..................T | ** ** ** ** ** ** 00 00 00 00 00 00 00 10 00 02 12 16 54 20
+    41 |'t5.T ...".6.APISW_1| 27 74 35 16 54 20 02 12 00 22 00 36 00 41 50 49 53 57 5F 31
+    61 |21              .(  | 32 31 20 20 20 20 20 20 20 20 20 20 20 20 20 20 00 28 20 20
+    81 |         #0112000000| 20 20 20 20 20 20 20 20 20 23 30 31 31 32 30 30 30 30 30 30
+   101 |000000..001858..40  | 30 30 30 30 30 30 00 03 30 30 31 38 35 38 00 19 34 30 20 20
+   121 | APISWV1.0     ..100| 20 41 50 49 53 57 56 31 2E 30 20 20 20 20 20 00 05 31 30 30
+   141 |69..0001|             36 39 00 04 30 30 30 31
+2020-02-12 16:54:47.979 [31] DEBUG - Frame delimiter of 184 byte/s fulfilled.
+2020-02-12 16:54:47.981 [31] DEBUG - Decoded field     0: [2,3,4,7,11,12,13,22,24,25,37,38,39,41,42,46,48,49,60,61,62,63]
+2020-02-12 16:54:47.982 [31] DEBUG - Decoded field     2: [************0001]
+2020-02-12 16:54:47.982 [31] DEBUG - Decoded field     3: [000000]
+2020-02-12 16:54:47.982 [31] DEBUG - Decoded field     4: [1000]
+2020-02-12 16:54:47.982 [31] DEBUG - Decoded field     7: [0212165420]
+2020-02-12 16:54:47.983 [31] DEBUG - Decoded field    11: [277435]
+2020-02-12 16:54:47.983 [31] DEBUG - Decoded field    12: [165420]
+2020-02-12 16:54:47.983 [31] DEBUG - Decoded field    13: [0212]
+2020-02-12 16:54:47.983 [31] DEBUG - Decoded field    22: [022]
+2020-02-12 16:54:47.983 [31] DEBUG - Decoded field    24: [36]
+2020-02-12 16:54:47.985 [31] DEBUG - Decoded field    25: [00]
+2020-02-12 16:54:47.985 [31] DEBUG - Decoded field    37: [1234567]
+2020-02-12 16:54:47.985 [31] DEBUG - Decoded field    38: [123456]
+2020-02-12 16:54:47.986 [31] DEBUG - Decoded field    39: [00]
+2020-02-12 16:54:47.987 [31] DEBUG - Decoded field    41: [APISW_12]
+2020-02-12 16:54:47.987 [31] DEBUG - Decoded field    42: [1]
+2020-02-12 16:54:47.987 [31] DEBUG - Decoded field    46: [           #0112000000000000]
+2020-02-12 16:54:47.987 [31] DEBUG - Decoded field    48: [001]
+2020-02-12 16:54:47.987 [31] DEBUG - Decoded field    49: [858]
+2020-02-12 16:54:47.989 [31] DEBUG - Decoded field    60: [40   APISWV1.0     ]
+2020-02-12 16:54:47.989 [31] DEBUG - Decoded field    61: [10069]
+2020-02-12 16:54:47.989 [31] DEBUG - Decoded field    62: [0001]
+2020-02-12 16:54:47.989 [31] DEBUG - Decoded field    63: [Autorizacion Ok!]
+2020-02-12 16:54:47.990 [31] DEBUG - ClientAutorizador raw received data consumed in the pipeline 186 byte/s:
+     1 |.¸`.6....r8...Å.....| 00 B8 60 00 36 01 01 02 10 72 38 05 80 0E C5 80 1E ** ** **
+    21 |..................T | ** ** ** ** ** ** 00 00 00 00 00 00 00 10 00 02 12 16 54 20
+    41 |'t5.T ...".6.1234567| 27 74 35 16 54 20 02 12 00 22 00 36 00 31 32 33 34 35 36 37
+    61 |     12345600APISW_1| 20 20 20 20 20 31 32 33 34 35 36 30 30 41 50 49 53 57 5F 31
+    81 |21              .(  | 32 31 20 20 20 20 20 20 20 20 20 20 20 20 20 20 00 28 20 20
+   101 |         #0112000000| 20 20 20 20 20 20 20 20 20 23 30 31 31 32 30 30 30 30 30 30
+   121 |000000..001858..40  | 30 30 30 30 30 30 00 03 30 30 31 38 35 38 00 19 34 30 20 20
+   141 | APISWV1.0     ..100| 20 41 50 49 53 57 56 31 2E 30 20 20 20 20 20 00 05 31 30 30
+   161 |69..0001..Autorizaci| 36 39 00 04 30 30 30 31 00 16 41 75 74 6F 72 69 7A 61 63 69
+   181 |on Ok!|               6F 6E 20 4F 6B 21
+2020-02-12 16:54:47.990 [31] INFO - ClientAutorizador received message: H:6000360101,M:210,0:[2,3,4,7,11,12,13,22,24,25,37,38,39,41,42,46,48,49,60,61,62,63],2:************0001,3:000000,4:1000,7:0212165420,11:277435,12:165420,13:0212,22:022,24:36,25:00,37:1234567,38:123456,39:00,41:APISW_12,42:1,46:           #0112000000000000,48:001,49:858,60:40   APISWV1.0     ,61:10069,62:0001,63:Autorizacion Ok!
+2020-02-12 16:54:47.991 [3] INFO - iMsg : H:6000360101,M:210,0:[2,3,4,7,11,12,13,22,24,25,37,38,39,41,42,46,48,49,60,61,62,63],2:************0001,3:000000,4:1000,7:0212165420,11:277435,12:165420,13:0212,22:022,24:36,25:00,37:1234567,38:123456,39:00,41:APISW_12,42:1,46:           #0112000000000000,48:001,49:858,60:40   APISWV1.0     ,61:10069,62:0001,63:Autorizacion Ok!
+2020-02-12 16:54:47.991 [3] INFO - ClientAutorizador: disconnecting from 127.0.0.1:7000, local end point 127.0.0.1:7871.
+2020-02-12 16:54:47.991 [3] INFO - Response: 00
+2020-02-12 16:54:47.993 [3] INFO - #################### Fin ClientAutorizador ####################
+2020-02-12 16:55:16.497 [27] WARN - #################### Inicio ClientAutorizador ####################
+2020-02-12 16:55:16.633 [27] WARN - Conectando con cliente RemoteInterface = 127.0.0.1 RemotePort = 7000
+2020-02-12 16:55:16.633 [27] INFO - ClientAutorizador: connecting to 127.0.0.1:7000 from local end point 0.0.0.0:0.
+2020-02-12 16:55:16.634 [3] INFO - ClientAutorizador: connected to 127.0.0.1:7000 from local end point 127.0.0.1:7877.
+2020-02-12 16:55:16.634 [27] WARN - Conecto con cliente
+2020-02-12 16:55:16.635 [27] INFO - ClientAutorizador message to send: H:6000360101,M:200,0:[2,3,4,7,11,12,13,22,24,25,41,42,46,48,49,60,61,62],2:************0001,3:000000,4:000000001000,7:0212165451,11:730472,12:165451,13:0212,22:022,24:36,25:00,41:APISW_12,42:1,46:           #0112000000000000,48:001,49:858,60:40   APISWV1.0     ,61:10069,62:0001
+2020-02-12 16:55:16.635 [27] DEBUG - ClientAutorizador raw data to send (148 bytes): 
+     1 |..`.6....r8...Å.....| 00 92 60 00 36 01 01 02 00 72 38 05 80 00 C5 80 1C ** ** **
+    21 |..................TQ| ** ** ** ** ** ** 00 00 00 00 00 00 00 10 00 02 12 16 54 51
+    41 |s.r.TQ...".6.APISW_1| 73 04 72 16 54 51 02 12 00 22 00 36 00 41 50 49 53 57 5F 31
+    61 |21              .(  | 32 31 20 20 20 20 20 20 20 20 20 20 20 20 20 20 00 28 20 20
+    81 |         #0112000000| 20 20 20 20 20 20 20 20 20 23 30 31 31 32 30 30 30 30 30 30
+   101 |000000..001858..40  | 30 30 30 30 30 30 00 03 30 30 31 38 35 38 00 19 34 30 20 20
+   121 | APISWV1.0     ..100| 20 41 50 49 53 57 56 31 2E 30 20 20 20 20 20 00 05 31 30 30
+   141 |69..0001|             36 39 00 04 30 30 30 31
+2020-02-12 16:55:16.681 [37] DEBUG - Frame delimiter of 184 byte/s fulfilled.
+2020-02-12 16:55:16.682 [37] DEBUG - Decoded field     0: [2,3,4,7,11,12,13,22,24,25,37,38,39,41,42,46,48,49,60,61,62,63]
+2020-02-12 16:55:16.682 [37] DEBUG - Decoded field     2: [************0001]
+2020-02-12 16:55:16.683 [37] DEBUG - Decoded field     3: [000000]
+2020-02-12 16:55:16.683 [37] DEBUG - Decoded field     4: [1000]
+2020-02-12 16:55:16.683 [37] DEBUG - Decoded field     7: [0212165451]
+2020-02-12 16:55:16.683 [37] DEBUG - Decoded field    11: [730472]
+2020-02-12 16:55:16.683 [37] DEBUG - Decoded field    12: [165451]
+2020-02-12 16:55:16.684 [37] DEBUG - Decoded field    13: [0212]
+2020-02-12 16:55:16.684 [37] DEBUG - Decoded field    22: [022]
+2020-02-12 16:55:16.684 [37] DEBUG - Decoded field    24: [36]
+2020-02-12 16:55:16.684 [37] DEBUG - Decoded field    25: [00]
+2020-02-12 16:55:16.684 [37] DEBUG - Decoded field    37: [1234567]
+2020-02-12 16:55:16.684 [37] DEBUG - Decoded field    38: [123456]
+2020-02-12 16:55:16.685 [37] DEBUG - Decoded field    39: [00]
+2020-02-12 16:55:16.685 [37] DEBUG - Decoded field    41: [APISW_12]
+2020-02-12 16:55:16.685 [37] DEBUG - Decoded field    42: [1]
+2020-02-12 16:55:16.685 [37] DEBUG - Decoded field    46: [           #0112000000000000]
+2020-02-12 16:55:16.685 [37] DEBUG - Decoded field    48: [001]
+2020-02-12 16:55:16.685 [37] DEBUG - Decoded field    49: [858]
+2020-02-12 16:55:16.686 [37] DEBUG - Decoded field    60: [40   APISWV1.0     ]
+2020-02-12 16:55:16.686 [37] DEBUG - Decoded field    61: [10069]
+2020-02-12 16:55:16.686 [37] DEBUG - Decoded field    62: [0001]
+2020-02-12 16:55:16.686 [37] DEBUG - Decoded field    63: [Autorizacion Ok!]
+2020-02-12 16:55:16.687 [37] DEBUG - ClientAutorizador raw received data consumed in the pipeline 186 byte/s:
+     1 |.¸`.6....r8...Å.....| 00 B8 60 00 36 01 01 02 10 72 38 05 80 0E C5 80 1E ** ** **
+    21 |..................TQ| ** ** ** ** ** ** 00 00 00 00 00 00 00 10 00 02 12 16 54 51
+    41 |s.r.TQ...".6.1234567| 73 04 72 16 54 51 02 12 00 22 00 36 00 31 32 33 34 35 36 37
+    61 |     12345600APISW_1| 20 20 20 20 20 31 32 33 34 35 36 30 30 41 50 49 53 57 5F 31
+    81 |21              .(  | 32 31 20 20 20 20 20 20 20 20 20 20 20 20 20 20 00 28 20 20
+   101 |         #0112000000| 20 20 20 20 20 20 20 20 20 23 30 31 31 32 30 30 30 30 30 30
+   121 |000000..001858..40  | 30 30 30 30 30 30 00 03 30 30 31 38 35 38 00 19 34 30 20 20
+   141 | APISWV1.0     ..100| 20 41 50 49 53 57 56 31 2E 30 20 20 20 20 20 00 05 31 30 30
+   161 |69..0001..Autorizaci| 36 39 00 04 30 30 30 31 00 16 41 75 74 6F 72 69 7A 61 63 69
+   181 |on Ok!|               6F 6E 20 4F 6B 21
+2020-02-12 16:55:16.687 [37] INFO - ClientAutorizador received message: H:6000360101,M:210,0:[2,3,4,7,11,12,13,22,24,25,37,38,39,41,42,46,48,49,60,61,62,63],2:************0001,3:000000,4:1000,7:0212165451,11:730472,12:165451,13:0212,22:022,24:36,25:00,37:1234567,38:123456,39:00,41:APISW_12,42:1,46:           #0112000000000000,48:001,49:858,60:40   APISWV1.0     ,61:10069,62:0001,63:Autorizacion Ok!
+2020-02-12 16:55:16.688 [27] INFO - iMsg : H:6000360101,M:210,0:[2,3,4,7,11,12,13,22,24,25,37,38,39,41,42,46,48,49,60,61,62,63],2:************0001,3:000000,4:1000,7:0212165451,11:730472,12:165451,13:0212,22:022,24:36,25:00,37:1234567,38:123456,39:00,41:APISW_12,42:1,46:           #0112000000000000,48:001,49:858,60:40   APISWV1.0     ,61:10069,62:0001,63:Autorizacion Ok!
+2020-02-12 16:55:16.688 [27] INFO - ClientAutorizador: disconnecting from 127.0.0.1:7000, local end point 127.0.0.1:7877.
+2020-02-12 16:55:16.689 [27] INFO - Response: 00
+2020-02-12 16:55:16.689 [27] INFO - #################### Fin ClientAutorizador ####################
+2020-02-17 15:13:43.617 [11] WARN - #################### Inicio ClientAutorizador ####################
+2020-02-17 15:13:44.298 [11] WARN - Conectando con cliente RemoteInterface = 127.0.0.1 RemotePort = 7000
+2020-02-17 15:13:44.372 [11] INFO - ClientAutorizador: connecting to 127.0.0.1:7000 from local end point 0.0.0.0:0.
+2020-02-17 15:13:44.391 [11] INFO - ClientAutorizador: connected to 127.0.0.1:7000 from local end point 127.0.0.1:37592.
+2020-02-17 15:13:44.414 [11] WARN - Conecto con cliente
+2020-02-17 15:13:44.455 [11] INFO - ClientAutorizador message to send: H:6000360101,M:200,0:[2,3,4,7,11,12,13,22,24,25,41,42,46,48,49,60,61,62],2:************0001,3:000000,4:000000001000,7:0217151340,11:802971,12:151340,13:0217,22:022,24:36,25:00,41:APISW_12,42:1,46:           #0112000000000000,48:001,49:858,60:40   APISWV1.0     ,61:10069,62:0001
+2020-02-17 15:13:44.475 [11] DEBUG - ClientAutorizador raw data to send (148 bytes): 
+     1 |..`.6....r8...Å.....| 00 92 60 00 36 01 01 02 00 72 38 05 80 00 C5 80 1C ** ** **
+    21 |...................@| ** ** ** ** ** ** 00 00 00 00 00 00 00 10 00 02 17 15 13 40
+    41 |.)q..@...".6.APISW_1| 80 29 71 15 13 40 02 17 00 22 00 36 00 41 50 49 53 57 5F 31
+    61 |21              .(  | 32 31 20 20 20 20 20 20 20 20 20 20 20 20 20 20 00 28 20 20
+    81 |         #0112000000| 20 20 20 20 20 20 20 20 20 23 30 31 31 32 30 30 30 30 30 30
+   101 |000000..001858..40  | 30 30 30 30 30 30 00 03 30 30 31 38 35 38 00 19 34 30 20 20
+   121 | APISWV1.0     ..100| 20 41 50 49 53 57 56 31 2E 30 20 20 20 20 20 00 05 31 30 30
+   141 |69..0001|             36 39 00 04 30 30 30 31
+2020-02-17 15:13:45.144 [19] DEBUG - Frame delimiter of 184 byte/s fulfilled.
+2020-02-17 15:13:45.161 [19] DEBUG - Decoded field     0: [2,3,4,7,11,12,13,22,24,25,37,38,39,41,42,46,48,49,60,61,62,63]
+2020-02-17 15:13:45.163 [19] DEBUG - Decoded field     2: [************0001]
+2020-02-17 15:13:45.163 [19] DEBUG - Decoded field     3: [000000]
+2020-02-17 15:13:45.163 [19] DEBUG - Decoded field     4: [1000]
+2020-02-17 15:13:45.163 [19] DEBUG - Decoded field     7: [0217151340]
+2020-02-17 15:13:45.163 [19] DEBUG - Decoded field    11: [802971]
+2020-02-17 15:13:45.163 [19] DEBUG - Decoded field    12: [151340]
+2020-02-17 15:13:45.164 [19] DEBUG - Decoded field    13: [0217]
+2020-02-17 15:13:45.164 [19] DEBUG - Decoded field    22: [022]
+2020-02-17 15:13:45.164 [19] DEBUG - Decoded field    24: [36]
+2020-02-17 15:13:45.164 [19] DEBUG - Decoded field    25: [00]
+2020-02-17 15:13:45.165 [19] DEBUG - Decoded field    37: [1234567]
+2020-02-17 15:13:45.166 [19] DEBUG - Decoded field    38: [123456]
+2020-02-17 15:13:45.166 [19] DEBUG - Decoded field    39: [00]
+2020-02-17 15:13:45.166 [19] DEBUG - Decoded field    41: [APISW_12]
+2020-02-17 15:13:45.166 [19] DEBUG - Decoded field    42: [1]
+2020-02-17 15:13:45.166 [19] DEBUG - Decoded field    46: [           #0112000000000000]
+2020-02-17 15:13:45.166 [19] DEBUG - Decoded field    48: [001]
+2020-02-17 15:13:45.167 [19] DEBUG - Decoded field    49: [858]
+2020-02-17 15:13:45.168 [19] DEBUG - Decoded field    60: [40   APISWV1.0     ]
+2020-02-17 15:13:45.168 [19] DEBUG - Decoded field    61: [10069]
+2020-02-17 15:13:45.168 [19] DEBUG - Decoded field    62: [0001]
+2020-02-17 15:13:45.168 [19] DEBUG - Decoded field    63: [Autorizacion Ok!]
+2020-02-17 15:13:45.169 [19] DEBUG - ClientAutorizador raw received data consumed in the pipeline 186 byte/s:
+     1 |.¸`.6....r8...Å.....| 00 B8 60 00 36 01 01 02 10 72 38 05 80 0E C5 80 1E ** ** **
+    21 |...................@| ** ** ** ** ** ** 00 00 00 00 00 00 00 10 00 02 17 15 13 40
+    41 |.)q..@...".6.1234567| 80 29 71 15 13 40 02 17 00 22 00 36 00 31 32 33 34 35 36 37
+    61 |     12345600APISW_1| 20 20 20 20 20 31 32 33 34 35 36 30 30 41 50 49 53 57 5F 31
+    81 |21              .(  | 32 31 20 20 20 20 20 20 20 20 20 20 20 20 20 20 00 28 20 20
+   101 |         #0112000000| 20 20 20 20 20 20 20 20 20 23 30 31 31 32 30 30 30 30 30 30
+   121 |000000..001858..40  | 30 30 30 30 30 30 00 03 30 30 31 38 35 38 00 19 34 30 20 20
+   141 | APISWV1.0     ..100| 20 41 50 49 53 57 56 31 2E 30 20 20 20 20 20 00 05 31 30 30
+   161 |69..0001..Autorizaci| 36 39 00 04 30 30 30 31 00 16 41 75 74 6F 72 69 7A 61 63 69
+   181 |on Ok!|               6F 6E 20 4F 6B 21
+2020-02-17 15:13:45.171 [19] INFO - ClientAutorizador received message: H:6000360101,M:210,0:[2,3,4,7,11,12,13,22,24,25,37,38,39,41,42,46,48,49,60,61,62,63],2:************0001,3:000000,4:1000,7:0217151340,11:802971,12:151340,13:0217,22:022,24:36,25:00,37:1234567,38:123456,39:00,41:APISW_12,42:1,46:           #0112000000000000,48:001,49:858,60:40   APISWV1.0     ,61:10069,62:0001,63:Autorizacion Ok!
+2020-02-17 15:13:45.173 [11] INFO - iMsg : H:6000360101,M:210,0:[2,3,4,7,11,12,13,22,24,25,37,38,39,41,42,46,48,49,60,61,62,63],2:************0001,3:000000,4:1000,7:0217151340,11:802971,12:151340,13:0217,22:022,24:36,25:00,37:1234567,38:123456,39:00,41:APISW_12,42:1,46:           #0112000000000000,48:001,49:858,60:40   APISWV1.0     ,61:10069,62:0001,63:Autorizacion Ok!
+2020-02-17 15:13:45.174 [11] INFO - ClientAutorizador: disconnecting from 127.0.0.1:7000, local end point 127.0.0.1:37592.
+2020-02-17 15:13:45.197 [11] INFO - Response: 00
+2020-02-17 15:13:45.197 [11] INFO - #################### Fin ClientAutorizador ####################
+2020-02-17 15:32:41.977 [10] WARN - #################### Inicio ClientAutorizador ####################
+2020-02-17 15:32:42.318 [10] WARN - Conectando con cliente RemoteInterface = 127.0.0.1 RemotePort = 7000
+2020-02-17 15:32:42.329 [10] INFO - ClientAutorizador: connecting to 127.0.0.1:7000 from local end point 0.0.0.0:0.
+2020-02-17 15:32:42.335 [13] INFO - ClientAutorizador: connected to 127.0.0.1:7000 from local end point 127.0.0.1:37844.
+2020-02-17 15:32:42.335 [10] WARN - Conecto con cliente
+2020-02-17 15:32:42.384 [10] INFO - ClientAutorizador message to send: H:6000360101,M:200,0:[2,3,4,7,11,12,13,22,24,25,41,42,46,48,49,60,61,62],2:************0001,3:000000,4:000000001000,7:0217153239,11:43951,12:153239,13:0217,22:022,24:36,25:00,41:APISW_12,42:1,46:           #0112000000000000,48:001,49:858,60:40   APISWV1.0     ,61:10069,62:0001
+2020-02-17 15:32:42.395 [10] DEBUG - ClientAutorizador raw data to send (148 bytes): 
+     1 |..`.6....r8...Å.....| 00 92 60 00 36 01 01 02 00 72 38 05 80 00 C5 80 1C ** ** **
+    21 |..................29| ** ** ** ** ** ** 00 00 00 00 00 00 00 10 00 02 17 15 32 39
+    41 |.9Q.29...".6.APISW_1| 04 39 51 15 32 39 02 17 00 22 00 36 00 41 50 49 53 57 5F 31
+    61 |21              .(  | 32 31 20 20 20 20 20 20 20 20 20 20 20 20 20 20 00 28 20 20
+    81 |         #0112000000| 20 20 20 20 20 20 20 20 20 23 30 31 31 32 30 30 30 30 30 30
+   101 |000000..001858..40  | 30 30 30 30 30 30 00 03 30 30 31 38 35 38 00 19 34 30 20 20
+   121 | APISWV1.0     ..100| 20 41 50 49 53 57 56 31 2E 30 20 20 20 20 20 00 05 31 30 30
+   141 |69..0001|             36 39 00 04 30 30 30 31
+2020-02-17 15:32:42.485 [13] DEBUG - Frame delimiter of 184 byte/s fulfilled.
+2020-02-17 15:32:42.500 [13] DEBUG - Decoded field     0: [2,3,4,7,11,12,13,22,24,25,37,38,39,41,42,46,48,49,60,61,62,63]
+2020-02-17 15:32:42.502 [13] DEBUG - Decoded field     2: [************0001]
+2020-02-17 15:32:42.502 [13] DEBUG - Decoded field     3: [000000]
+2020-02-17 15:32:42.502 [13] DEBUG - Decoded field     4: [1000]
+2020-02-17 15:32:42.502 [13] DEBUG - Decoded field     7: [0217153239]
+2020-02-17 15:32:42.502 [13] DEBUG - Decoded field    11: [43951]
+2020-02-17 15:32:42.502 [13] DEBUG - Decoded field    12: [153239]
+2020-02-17 15:32:42.503 [13] DEBUG - Decoded field    13: [0217]
+2020-02-17 15:32:42.503 [13] DEBUG - Decoded field    22: [022]
+2020-02-17 15:32:42.503 [13] DEBUG - Decoded field    24: [36]
+2020-02-17 15:32:42.503 [13] DEBUG - Decoded field    25: [00]
+2020-02-17 15:32:42.504 [13] DEBUG - Decoded field    37: [1234567]
+2020-02-17 15:32:42.505 [13] DEBUG - Decoded field    38: [123456]
+2020-02-17 15:32:42.505 [13] DEBUG - Decoded field    39: [00]
+2020-02-17 15:32:42.505 [13] DEBUG - Decoded field    41: [APISW_12]
+2020-02-17 15:32:42.505 [13] DEBUG - Decoded field    42: [1]
+2020-02-17 15:32:42.505 [13] DEBUG - Decoded field    46: [           #0112000000000000]
+2020-02-17 15:32:42.505 [13] DEBUG - Decoded field    48: [001]
+2020-02-17 15:32:42.506 [13] DEBUG - Decoded field    49: [858]
+2020-02-17 15:32:42.506 [13] DEBUG - Decoded field    60: [40   APISWV1.0     ]
+2020-02-17 15:32:42.506 [13] DEBUG - Decoded field    61: [10069]
+2020-02-17 15:32:42.506 [13] DEBUG - Decoded field    62: [0001]
+2020-02-17 15:32:42.506 [13] DEBUG - Decoded field    63: [Autorizacion Ok!]
+2020-02-17 15:32:42.506 [13] DEBUG - ClientAutorizador raw received data consumed in the pipeline 186 byte/s:
+     1 |.¸`.6....r8...Å.....| 00 B8 60 00 36 01 01 02 10 72 38 05 80 0E C5 80 1E ** ** **
+    21 |..................29| ** ** ** ** ** ** 00 00 00 00 00 00 00 10 00 02 17 15 32 39
+    41 |.9Q.29...".6.1234567| 04 39 51 15 32 39 02 17 00 22 00 36 00 31 32 33 34 35 36 37
+    61 |     12345600APISW_1| 20 20 20 20 20 31 32 33 34 35 36 30 30 41 50 49 53 57 5F 31
+    81 |21              .(  | 32 31 20 20 20 20 20 20 20 20 20 20 20 20 20 20 00 28 20 20
+   101 |         #0112000000| 20 20 20 20 20 20 20 20 20 23 30 31 31 32 30 30 30 30 30 30
+   121 |000000..001858..40  | 30 30 30 30 30 30 00 03 30 30 31 38 35 38 00 19 34 30 20 20
+   141 | APISWV1.0     ..100| 20 41 50 49 53 57 56 31 2E 30 20 20 20 20 20 00 05 31 30 30
+   161 |69..0001..Autorizaci| 36 39 00 04 30 30 30 31 00 16 41 75 74 6F 72 69 7A 61 63 69
+   181 |on Ok!|               6F 6E 20 4F 6B 21
+2020-02-17 15:32:42.508 [13] INFO - ClientAutorizador received message: H:6000360101,M:210,0:[2,3,4,7,11,12,13,22,24,25,37,38,39,41,42,46,48,49,60,61,62,63],2:************0001,3:000000,4:1000,7:0217153239,11:43951,12:153239,13:0217,22:022,24:36,25:00,37:1234567,38:123456,39:00,41:APISW_12,42:1,46:           #0112000000000000,48:001,49:858,60:40   APISWV1.0     ,61:10069,62:0001,63:Autorizacion Ok!
+2020-02-17 15:32:42.510 [10] INFO - iMsg : H:6000360101,M:210,0:[2,3,4,7,11,12,13,22,24,25,37,38,39,41,42,46,48,49,60,61,62,63],2:************0001,3:000000,4:1000,7:0217153239,11:43951,12:153239,13:0217,22:022,24:36,25:00,37:1234567,38:123456,39:00,41:APISW_12,42:1,46:           #0112000000000000,48:001,49:858,60:40   APISWV1.0     ,61:10069,62:0001,63:Autorizacion Ok!
+2020-02-17 15:32:42.511 [10] INFO - ClientAutorizador: disconnecting from 127.0.0.1:7000, local end point 127.0.0.1:37844.
+2020-02-17 15:32:42.514 [10] INFO - Response: 00
+2020-02-17 15:32:42.515 [10] INFO - #################### Fin ClientAutorizador ####################
+2020-02-28 19:39:44.957 [12] WARN - #################### Inicio ClientAutorizador ####################
+2020-02-28 19:39:45.161 [12] WARN - Conectando con cliente RemoteInterface = 127.0.0.1 RemotePort = 7000
+2020-02-28 19:39:45.240 [12] INFO - ClientAutorizador: connecting to 127.0.0.1:7000 from local end point 0.0.0.0:0.
+2020-02-28 19:39:46.930 [13] WARN - ClientAutorizador: connection refused, No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión 127.0.0.1:7000.
+2020-02-28 19:39:46.931 [6] INFO - ClientAutorizador: connecting to 127.0.0.1:7000 from local end point 0.0.0.0:0.
+2020-02-28 19:39:47.049 [12] WARN - No hay conexion: System.Net.Sockets.SocketException (0x80004005): No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión 127.0.0.1:7000
+   en System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   en System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   en Trx.Communication.Channels.Tcp.TcpClientChannel.AsyncConnectionRequestHandler(IAsyncResult asyncResult) en C:\Users\Aparicio\documents\visual studio 2017\Projects\APIWcf\Framework\Communication\Channels\Tcp\TcpClientChannel.cs:línea 333
+2020-02-28 19:39:47.050 [12] INFO - Response: -1
+2020-02-28 19:39:47.051 [12] INFO - #################### Fin ClientAutorizador ####################
+2020-02-28 19:39:47.948 [12] WARN - ClientAutorizador: connection refused, No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión 127.0.0.1:7000.
+2020-02-28 19:46:17.199 [9] WARN - #################### Inicio ClientAutorizador ####################
+2020-02-28 19:46:17.446 [9] WARN - Conectando con cliente RemoteInterface = 127.0.0.1 RemotePort = 7000
+2020-02-28 19:46:17.461 [9] INFO - ClientAutorizador: connecting to 127.0.0.1:7000 from local end point 0.0.0.0:0.
+2020-02-28 19:46:17.467 [8] INFO - ClientAutorizador: connected to 127.0.0.1:7000 from local end point 127.0.0.1:6601.
+2020-02-28 19:46:17.467 [9] WARN - Conecto con cliente
+2020-02-28 19:46:17.524 [9] INFO - ClientAutorizador message to send: H:6000360101,M:200,0:[2,3,4,7,11,12,13,22,24,25,41,42,46,48,49,60,61,62],2:************0001,3:000000,4:000000001000,7:0228194616,11:939622,12:194616,13:0228,22:022,24:36,25:00,41:APISW_12,42:1,46:           #0112000000000000,48:001,49:858,60:40   APISWV1.0     ,61:10069,62:0001
+2020-02-28 19:46:17.534 [9] DEBUG - ClientAutorizador raw data to send (148 bytes): 
+     1 |..`.6....r8...Å.....| 00 92 60 00 36 01 01 02 00 72 38 05 80 00 C5 80 1C ** ** **
+    21 |................(.F.| ** ** ** ** ** ** 00 00 00 00 00 00 00 10 00 02 28 19 46 16
+    41 |..".F..(.".6.APISW_1| 93 96 22 19 46 16 02 28 00 22 00 36 00 41 50 49 53 57 5F 31
+    61 |21              .(  | 32 31 20 20 20 20 20 20 20 20 20 20 20 20 20 20 00 28 20 20
+    81 |         #0112000000| 20 20 20 20 20 20 20 20 20 23 30 31 31 32 30 30 30 30 30 30
+   101 |000000..001858..40  | 30 30 30 30 30 30 00 03 30 30 31 38 35 38 00 19 34 30 20 20
+   121 | APISWV1.0     ..100| 20 41 50 49 53 57 56 31 2E 30 20 20 20 20 20 00 05 31 30 30
+   141 |69..0001|             36 39 00 04 30 30 30 31
+2020-02-28 19:46:17.999 [10] DEBUG - Frame delimiter of 184 byte/s fulfilled.
+2020-02-28 19:46:18.015 [10] DEBUG - Decoded field     0: [2,3,4,7,11,12,13,22,24,25,37,38,39,41,42,46,48,49,60,61,62,63]
+2020-02-28 19:46:18.016 [10] DEBUG - Decoded field     2: [************0001]
+2020-02-28 19:46:18.016 [10] DEBUG - Decoded field     3: [000000]
+2020-02-28 19:46:18.017 [10] DEBUG - Decoded field     4: [1000]
+2020-02-28 19:46:18.017 [10] DEBUG - Decoded field     7: [0228194616]
+2020-02-28 19:46:18.017 [10] DEBUG - Decoded field    11: [939622]
+2020-02-28 19:46:18.017 [10] DEBUG - Decoded field    12: [194616]
+2020-02-28 19:46:18.017 [10] DEBUG - Decoded field    13: [0228]
+2020-02-28 19:46:18.017 [10] DEBUG - Decoded field    22: [022]
+2020-02-28 19:46:18.018 [10] DEBUG - Decoded field    24: [36]
+2020-02-28 19:46:18.018 [10] DEBUG - Decoded field    25: [00]
+2020-02-28 19:46:18.019 [10] DEBUG - Decoded field    37: [1234567]
+2020-02-28 19:46:18.019 [10] DEBUG - Decoded field    38: [123456]
+2020-02-28 19:46:18.019 [10] DEBUG - Decoded field    39: [00]
+2020-02-28 19:46:18.019 [10] DEBUG - Decoded field    41: [APISW_12]
+2020-02-28 19:46:18.020 [10] DEBUG - Decoded field    42: [1]
+2020-02-28 19:46:18.020 [10] DEBUG - Decoded field    46: [           #0112000000000000]
+2020-02-28 19:46:18.020 [10] DEBUG - Decoded field    48: [001]
+2020-02-28 19:46:18.020 [10] DEBUG - Decoded field    49: [858]
+2020-02-28 19:46:18.020 [10] DEBUG - Decoded field    60: [40   APISWV1.0     ]
+2020-02-28 19:46:18.021 [10] DEBUG - Decoded field    61: [10069]
+2020-02-28 19:46:18.021 [10] DEBUG - Decoded field    62: [0001]
+2020-02-28 19:46:18.021 [10] DEBUG - Decoded field    63: [Autorizacion Ok!]
+2020-02-28 19:46:18.022 [10] DEBUG - ClientAutorizador raw received data consumed in the pipeline 186 byte/s:
+     1 |.¸`.6....r8...Å.....| 00 B8 60 00 36 01 01 02 10 72 38 05 80 0E C5 80 1E ** ** **
+    21 |................(.F.| ** ** ** ** ** ** 00 00 00 00 00 00 00 10 00 02 28 19 46 16
+    41 |..".F..(.".6.1234567| 93 96 22 19 46 16 02 28 00 22 00 36 00 31 32 33 34 35 36 37
+    61 |     12345600APISW_1| 20 20 20 20 20 31 32 33 34 35 36 30 30 41 50 49 53 57 5F 31
+    81 |21              .(  | 32 31 20 20 20 20 20 20 20 20 20 20 20 20 20 20 00 28 20 20
+   101 |         #0112000000| 20 20 20 20 20 20 20 20 20 23 30 31 31 32 30 30 30 30 30 30
+   121 |000000..001858..40  | 30 30 30 30 30 30 00 03 30 30 31 38 35 38 00 19 34 30 20 20
+   141 | APISWV1.0     ..100| 20 41 50 49 53 57 56 31 2E 30 20 20 20 20 20 00 05 31 30 30
+   161 |69..0001..Autorizaci| 36 39 00 04 30 30 30 31 00 16 41 75 74 6F 72 69 7A 61 63 69
+   181 |on Ok!|               6F 6E 20 4F 6B 21
+2020-02-28 19:46:18.023 [10] INFO - ClientAutorizador received message: H:6000360101,M:210,0:[2,3,4,7,11,12,13,22,24,25,37,38,39,41,42,46,48,49,60,61,62,63],2:************0001,3:000000,4:1000,7:0228194616,11:939622,12:194616,13:0228,22:022,24:36,25:00,37:1234567,38:123456,39:00,41:APISW_12,42:1,46:           #0112000000000000,48:001,49:858,60:40   APISWV1.0     ,61:10069,62:0001,63:Autorizacion Ok!
+2020-02-28 19:46:18.024 [9] INFO - iMsg : H:6000360101,M:210,0:[2,3,4,7,11,12,13,22,24,25,37,38,39,41,42,46,48,49,60,61,62,63],2:************0001,3:000000,4:1000,7:0228194616,11:939622,12:194616,13:0228,22:022,24:36,25:00,37:1234567,38:123456,39:00,41:APISW_12,42:1,46:           #0112000000000000,48:001,49:858,60:40   APISWV1.0     ,61:10069,62:0001,63:Autorizacion Ok!
+2020-02-28 19:46:18.025 [9] INFO - ClientAutorizador: disconnecting from 127.0.0.1:7000, local end point 127.0.0.1:6601.
+2020-02-28 19:46:18.034 [9] INFO - Response: 00
+2020-02-28 19:46:18.035 [9] INFO - #################### Fin ClientAutorizador ####################
+2020-02-28 20:09:48.207 [11] WARN - #################### Inicio ClientAutorizador ####################
+2020-02-28 20:09:48.427 [11] WARN - Conectando con cliente RemoteInterface = 127.0.0.1 RemotePort = 7000
+2020-02-28 20:09:48.440 [11] INFO - ClientAutorizador: connecting to 127.0.0.1:7000 from local end point 0.0.0.0:0.
+2020-02-28 20:09:48.445 [10] INFO - ClientAutorizador: connected to 127.0.0.1:7000 from local end point 127.0.0.1:6675.
+2020-02-28 20:09:48.452 [11] WARN - Conecto con cliente
+2020-02-28 20:09:48.496 [11] INFO - ClientAutorizador message to send: H:6000360101,M:200,0:[2,3,4,7,11,12,13,22,24,25,41,42,46,48,49,60,61,62],2:************0001,3:000000,4:000000001000,7:0228200948,11:305467,12:200948,13:0228,22:022,24:36,25:00,41:APISW_12,42:1,46:           #0112000000000000,48:001,49:858,60:40   APISWV1.0     ,61:10069,62:0001
+2020-02-28 20:09:48.511 [11] DEBUG - ClientAutorizador raw data to send (148 bytes): 
+     1 |..`.6....r8...Å.....| 00 92 60 00 36 01 01 02 00 72 38 05 80 00 C5 80 1C ** ** **
+    21 |................( .H| ** ** ** ** ** ** 00 00 00 00 00 00 00 10 00 02 28 20 09 48
+    41 |0Tg .H.(.".6.APISW_1| 30 54 67 20 09 48 02 28 00 22 00 36 00 41 50 49 53 57 5F 31
+    61 |21              .(  | 32 31 20 20 20 20 20 20 20 20 20 20 20 20 20 20 00 28 20 20
+    81 |         #0112000000| 20 20 20 20 20 20 20 20 20 23 30 31 31 32 30 30 30 30 30 30
+   101 |000000..001858..40  | 30 30 30 30 30 30 00 03 30 30 31 38 35 38 00 19 34 30 20 20
+   121 | APISWV1.0     ..100| 20 41 50 49 53 57 56 31 2E 30 20 20 20 20 20 00 05 31 30 30
+   141 |69..0001|             36 39 00 04 30 30 30 31
+2020-02-28 20:09:48.674 [12] DEBUG - Frame delimiter of 184 byte/s fulfilled.
+2020-02-28 20:09:48.688 [12] DEBUG - Decoded field     0: [2,3,4,7,11,12,13,22,24,25,37,38,39,41,42,46,48,49,60,61,62,63]
+2020-02-28 20:09:48.690 [12] DEBUG - Decoded field     2: [************0001]
+2020-02-28 20:09:48.691 [12] DEBUG - Decoded field     3: [000000]
+2020-02-28 20:09:48.691 [12] DEBUG - Decoded field     4: [1000]
+2020-02-28 20:09:48.691 [12] DEBUG - Decoded field     7: [0228200948]
+2020-02-28 20:09:48.691 [12] DEBUG - Decoded field    11: [305467]
+2020-02-28 20:09:48.691 [12] DEBUG - Decoded field    12: [200948]
+2020-02-28 20:09:48.691 [12] DEBUG - Decoded field    13: [0228]
+2020-02-28 20:09:48.692 [12] DEBUG - Decoded field    22: [022]
+2020-02-28 20:09:48.692 [12] DEBUG - Decoded field    24: [36]
+2020-02-28 20:09:48.692 [12] DEBUG - Decoded field    25: [00]
+2020-02-28 20:09:48.693 [12] DEBUG - Decoded field    37: [1234567]
+2020-02-28 20:09:48.693 [12] DEBUG - Decoded field    38: [123456]
+2020-02-28 20:09:48.693 [12] DEBUG - Decoded field    39: [00]
+2020-02-28 20:09:48.693 [12] DEBUG - Decoded field    41: [APISW_12]
+2020-02-28 20:09:48.693 [12] DEBUG - Decoded field    42: [1]
+2020-02-28 20:09:48.694 [12] DEBUG - Decoded field    46: [           #0112000000000000]
+2020-02-28 20:09:48.694 [12] DEBUG - Decoded field    48: [001]
+2020-02-28 20:09:48.694 [12] DEBUG - Decoded field    49: [858]
+2020-02-28 20:09:48.694 [12] DEBUG - Decoded field    60: [40   APISWV1.0     ]
+2020-02-28 20:09:48.694 [12] DEBUG - Decoded field    61: [10069]
+2020-02-28 20:09:48.694 [12] DEBUG - Decoded field    62: [0001]
+2020-02-28 20:09:48.694 [12] DEBUG - Decoded field    63: [Autorizacion Ok!]
+2020-02-28 20:09:48.694 [12] DEBUG - ClientAutorizador raw received data consumed in the pipeline 186 byte/s:
+     1 |.¸`.6....r8...Å.....| 00 B8 60 00 36 01 01 02 10 72 38 05 80 0E C5 80 1E ** ** **
+    21 |................( .H| ** ** ** ** ** ** 00 00 00 00 00 00 00 10 00 02 28 20 09 48
+    41 |0Tg .H.(.".6.1234567| 30 54 67 20 09 48 02 28 00 22 00 36 00 31 32 33 34 35 36 37
+    61 |     12345600APISW_1| 20 20 20 20 20 31 32 33 34 35 36 30 30 41 50 49 53 57 5F 31
+    81 |21              .(  | 32 31 20 20 20 20 20 20 20 20 20 20 20 20 20 20 00 28 20 20
+   101 |         #0112000000| 20 20 20 20 20 20 20 20 20 23 30 31 31 32 30 30 30 30 30 30
+   121 |000000..001858..40  | 30 30 30 30 30 30 00 03 30 30 31 38 35 38 00 19 34 30 20 20
+   141 | APISWV1.0     ..100| 20 41 50 49 53 57 56 31 2E 30 20 20 20 20 20 00 05 31 30 30
+   161 |69..0001..Autorizaci| 36 39 00 04 30 30 30 31 00 16 41 75 74 6F 72 69 7A 61 63 69
+   181 |on Ok!|               6F 6E 20 4F 6B 21
+2020-02-28 20:09:48.695 [12] INFO - ClientAutorizador received message: H:6000360101,M:210,0:[2,3,4,7,11,12,13,22,24,25,37,38,39,41,42,46,48,49,60,61,62,63],2:************0001,3:000000,4:1000,7:0228200948,11:305467,12:200948,13:0228,22:022,24:36,25:00,37:1234567,38:123456,39:00,41:APISW_12,42:1,46:           #0112000000000000,48:001,49:858,60:40   APISWV1.0     ,61:10069,62:0001,63:Autorizacion Ok!
+2020-02-28 20:09:48.697 [11] INFO - iMsg : H:6000360101,M:210,0:[2,3,4,7,11,12,13,22,24,25,37,38,39,41,42,46,48,49,60,61,62,63],2:************0001,3:000000,4:1000,7:0228200948,11:305467,12:200948,13:0228,22:022,24:36,25:00,37:1234567,38:123456,39:00,41:APISW_12,42:1,46:           #0112000000000000,48:001,49:858,60:40   APISWV1.0     ,61:10069,62:0001,63:Autorizacion Ok!
+2020-02-28 20:09:48.697 [11] INFO - ClientAutorizador: disconnecting from 127.0.0.1:7000, local end point 127.0.0.1:6675.
+2020-02-28 20:09:48.700 [11] INFO - Response: 00
+2020-02-28 20:09:48.700 [11] INFO - #################### Fin ClientAutorizador ####################
+2020-02-28 20:10:00.138 [13] WARN - #################### Inicio ClientAutorizador ####################
+2020-02-28 20:10:00.290 [13] WARN - Conectando con cliente RemoteInterface = 127.0.0.1 RemotePort = 7000
+2020-02-28 20:10:00.290 [13] INFO - ClientAutorizador: connecting to 127.0.0.1:7000 from local end point 0.0.0.0:0.
+2020-02-28 20:10:00.291 [13] INFO - ClientAutorizador: connected to 127.0.0.1:7000 from local end point 127.0.0.1:6677.
+2020-02-28 20:10:00.291 [13] WARN - Conecto con cliente
+2020-02-28 20:10:00.292 [13] INFO - ClientAutorizador message to send: H:6000360101,M:200,0:[2,3,4,7,11,12,13,22,24,25,41,42,46,48,49,60,61,62],2:************0001,3:000000,4:000000001000,7:0228201000,11:799606,12:201000,13:0228,22:022,24:36,25:00,41:APISW_12,42:1,46:           #0112000000000000,48:001,49:858,60:40   APISWV1.0     ,61:10069,62:0001
+2020-02-28 20:10:00.292 [13] DEBUG - ClientAutorizador raw data to send (148 bytes): 
+     1 |..`.6....r8...Å.....| 00 92 60 00 36 01 01 02 00 72 38 05 80 00 C5 80 1C ** ** **
+    21 |................( ..| ** ** ** ** ** ** 00 00 00 00 00 00 00 10 00 02 28 20 10 00
+    41 |y.. ...(.".6.APISW_1| 79 96 06 20 10 00 02 28 00 22 00 36 00 41 50 49 53 57 5F 31
+    61 |21              .(  | 32 31 20 20 20 20 20 20 20 20 20 20 20 20 20 20 00 28 20 20
+    81 |         #0112000000| 20 20 20 20 20 20 20 20 20 23 30 31 31 32 30 30 30 30 30 30
+   101 |000000..001858..40  | 30 30 30 30 30 30 00 03 30 30 31 38 35 38 00 19 34 30 20 20
+   121 | APISWV1.0     ..100| 20 41 50 49 53 57 56 31 2E 30 20 20 20 20 20 00 05 31 30 30
+   141 |69..0001|             36 39 00 04 30 30 30 31
+2020-02-28 20:10:00.444 [11] DEBUG - Frame delimiter of 184 byte/s fulfilled.
+2020-02-28 20:10:00.444 [11] DEBUG - Decoded field     0: [2,3,4,7,11,12,13,22,24,25,37,38,39,41,42,46,48,49,60,61,62,63]
+2020-02-28 20:10:00.444 [11] DEBUG - Decoded field     2: [************0001]
+2020-02-28 20:10:00.445 [11] DEBUG - Decoded field     3: [000000]
+2020-02-28 20:10:00.445 [11] DEBUG - Decoded field     4: [1000]
+2020-02-28 20:10:00.445 [11] DEBUG - Decoded field     7: [0228201000]
+2020-02-28 20:10:00.445 [11] DEBUG - Decoded field    11: [799606]
+2020-02-28 20:10:00.445 [11] DEBUG - Decoded field    12: [201000]
+2020-02-28 20:10:00.446 [11] DEBUG - Decoded field    13: [0228]
+2020-02-28 20:10:00.446 [11] DEBUG - Decoded field    22: [022]
+2020-02-28 20:10:00.446 [11] DEBUG - Decoded field    24: [36]
+2020-02-28 20:10:00.446 [11] DEBUG - Decoded field    25: [00]
+2020-02-28 20:10:00.446 [11] DEBUG - Decoded field    37: [1234567]
+2020-02-28 20:10:00.446 [11] DEBUG - Decoded field    38: [123456]
+2020-02-28 20:10:00.447 [11] DEBUG - Decoded field    39: [00]
+2020-02-28 20:10:00.447 [11] DEBUG - Decoded field    41: [APISW_12]
+2020-02-28 20:10:00.447 [11] DEBUG - Decoded field    42: [1]
+2020-02-28 20:10:00.447 [11] DEBUG - Decoded field    46: [           #0112000000000000]
+2020-02-28 20:10:00.447 [11] DEBUG - Decoded field    48: [001]
+2020-02-28 20:10:00.447 [11] DEBUG - Decoded field    49: [858]
+2020-02-28 20:10:00.447 [11] DEBUG - Decoded field    60: [40   APISWV1.0     ]
+2020-02-28 20:10:00.447 [11] DEBUG - Decoded field    61: [10069]
+2020-02-28 20:10:00.448 [11] DEBUG - Decoded field    62: [0001]
+2020-02-28 20:10:00.448 [11] DEBUG - Decoded field    63: [Autorizacion Ok!]
+2020-02-28 20:10:00.448 [11] DEBUG - ClientAutorizador raw received data consumed in the pipeline 186 byte/s:
+     1 |.¸`.6....r8...Å.....| 00 B8 60 00 36 01 01 02 10 72 38 05 80 0E C5 80 1E ** ** **
+    21 |................( ..| ** ** ** ** ** ** 00 00 00 00 00 00 00 10 00 02 28 20 10 00
+    41 |y.. ...(.".6.1234567| 79 96 06 20 10 00 02 28 00 22 00 36 00 31 32 33 34 35 36 37
+    61 |     12345600APISW_1| 20 20 20 20 20 31 32 33 34 35 36 30 30 41 50 49 53 57 5F 31
+    81 |21              .(  | 32 31 20 20 20 20 20 20 20 20 20 20 20 20 20 20 00 28 20 20
+   101 |         #0112000000| 20 20 20 20 20 20 20 20 20 23 30 31 31 32 30 30 30 30 30 30
+   121 |000000..001858..40  | 30 30 30 30 30 30 00 03 30 30 31 38 35 38 00 19 34 30 20 20
+   141 | APISWV1.0     ..100| 20 41 50 49 53 57 56 31 2E 30 20 20 20 20 20 00 05 31 30 30
+   161 |69..0001..Autorizaci| 36 39 00 04 30 30 30 31 00 16 41 75 74 6F 72 69 7A 61 63 69
+   181 |on Ok!|               6F 6E 20 4F 6B 21
+2020-02-28 20:10:00.449 [11] INFO - ClientAutorizador received message: H:6000360101,M:210,0:[2,3,4,7,11,12,13,22,24,25,37,38,39,41,42,46,48,49,60,61,62,63],2:************0001,3:000000,4:1000,7:0228201000,11:799606,12:201000,13:0228,22:022,24:36,25:00,37:1234567,38:123456,39:00,41:APISW_12,42:1,46:           #0112000000000000,48:001,49:858,60:40   APISWV1.0     ,61:10069,62:0001,63:Autorizacion Ok!
+2020-02-28 20:10:00.450 [13] INFO - iMsg : H:6000360101,M:210,0:[2,3,4,7,11,12,13,22,24,25,37,38,39,41,42,46,48,49,60,61,62,63],2:************0001,3:000000,4:1000,7:0228201000,11:799606,12:201000,13:0228,22:022,24:36,25:00,37:1234567,38:123456,39:00,41:APISW_12,42:1,46:           #0112000000000000,48:001,49:858,60:40   APISWV1.0     ,61:10069,62:0001,63:Autorizacion Ok!
+2020-02-28 20:10:00.450 [13] INFO - ClientAutorizador: disconnecting from 127.0.0.1:7000, local end point 127.0.0.1:6677.
+2020-02-28 20:10:00.450 [13] INFO - Response: 00
+2020-02-28 20:10:00.451 [13] INFO - #################### Fin ClientAutorizador ####################
+2020-02-28 20:10:47.915 [13] WARN - #################### Inicio ClientAutorizador ####################
+2020-02-28 20:10:48.048 [13] WARN - Conectando con cliente RemoteInterface = 127.0.0.1 RemotePort = 7000
+2020-02-28 20:10:48.048 [13] INFO - ClientAutorizador: connecting to 127.0.0.1:7000 from local end point 0.0.0.0:0.
+2020-02-28 20:10:48.049 [13] INFO - ClientAutorizador: connected to 127.0.0.1:7000 from local end point 127.0.0.1:6681.
+2020-02-28 20:10:48.049 [13] WARN - Conecto con cliente
+2020-02-28 20:10:48.049 [13] INFO - ClientAutorizador message to send: H:6000360101,M:200,0:[2,3,4,7,11,12,13,22,24,25,41,42,46,48,49,60,61,62],2:************0001,3:000000,4:000000001000,7:0228201047,11:325970,12:201047,13:0228,22:022,24:36,25:00,41:APISW_12,42:1,46:           #0112000000000000,48:001,49:858,60:40   APISWV1.0     ,61:10069,62:0001
+2020-02-28 20:10:48.050 [13] DEBUG - ClientAutorizador raw data to send (148 bytes): 
+     1 |..`.6....r8...Å.....| 00 92 60 00 36 01 01 02 00 72 38 05 80 00 C5 80 1C ** ** **
+    21 |................( .G| ** ** ** ** ** ** 00 00 00 00 00 00 00 10 00 02 28 20 10 47
+    41 |2Yp .G.(.".6.APISW_1| 32 59 70 20 10 47 02 28 00 22 00 36 00 41 50 49 53 57 5F 31
+    61 |21              .(  | 32 31 20 20 20 20 20 20 20 20 20 20 20 20 20 20 00 28 20 20
+    81 |         #0112000000| 20 20 20 20 20 20 20 20 20 23 30 31 31 32 30 30 30 30 30 30
+   101 |000000..001858..40  | 30 30 30 30 30 30 00 03 30 30 31 38 35 38 00 19 34 30 20 20
+   121 | APISWV1.0     ..100| 20 41 50 49 53 57 56 31 2E 30 20 20 20 20 20 00 05 31 30 30
+   141 |69..0001|             36 39 00 04 30 30 30 31
+2020-02-28 20:10:48.238 [16] DEBUG - Frame delimiter of 184 byte/s fulfilled.
+2020-02-28 20:10:48.239 [16] DEBUG - Decoded field     0: [2,3,4,7,11,12,13,22,24,25,37,38,39,41,42,46,48,49,60,61,62,63]
+2020-02-28 20:10:48.239 [16] DEBUG - Decoded field     2: [************0001]
+2020-02-28 20:10:48.239 [16] DEBUG - Decoded field     3: [000000]
+2020-02-28 20:10:48.240 [16] DEBUG - Decoded field     4: [1000]
+2020-02-28 20:10:48.240 [16] DEBUG - Decoded field     7: [0228201047]
+2020-02-28 20:10:48.240 [16] DEBUG - Decoded field    11: [325970]
+2020-02-28 20:10:48.243 [16] DEBUG - Decoded field    12: [201047]
+2020-02-28 20:10:48.243 [16] DEBUG - Decoded field    13: [0228]
+2020-02-28 20:10:48.243 [16] DEBUG - Decoded field    22: [022]
+2020-02-28 20:10:48.244 [16] DEBUG - Decoded field    24: [36]
+2020-02-28 20:10:48.244 [16] DEBUG - Decoded field    25: [00]
+2020-02-28 20:10:48.244 [16] DEBUG - Decoded field    37: [1234567]
+2020-02-28 20:10:48.245 [16] DEBUG - Decoded field    38: [123456]
+2020-02-28 20:10:48.245 [16] DEBUG - Decoded field    39: [00]
+2020-02-28 20:10:48.245 [16] DEBUG - Decoded field    41: [APISW_12]
+2020-02-28 20:10:48.245 [16] DEBUG - Decoded field    42: [1]
+2020-02-28 20:10:48.245 [16] DEBUG - Decoded field    46: [           #0112000000000000]
+2020-02-28 20:10:48.245 [16] DEBUG - Decoded field    48: [001]
+2020-02-28 20:10:48.245 [16] DEBUG - Decoded field    49: [858]
+2020-02-28 20:10:48.245 [16] DEBUG - Decoded field    60: [40   APISWV1.0     ]
+2020-02-28 20:10:48.246 [16] DEBUG - Decoded field    61: [10069]
+2020-02-28 20:10:48.246 [16] DEBUG - Decoded field    62: [0001]
+2020-02-28 20:10:48.246 [16] DEBUG - Decoded field    63: [Autorizacion Ok!]
+2020-02-28 20:10:48.246 [16] DEBUG - ClientAutorizador raw received data consumed in the pipeline 186 byte/s:
+     1 |.¸`.6....r8...Å.....| 00 B8 60 00 36 01 01 02 10 72 38 05 80 0E C5 80 1E ** ** **
+    21 |................( .G| ** ** ** ** ** ** 00 00 00 00 00 00 00 10 00 02 28 20 10 47
+    41 |2Yp .G.(.".6.1234567| 32 59 70 20 10 47 02 28 00 22 00 36 00 31 32 33 34 35 36 37
+    61 |     12345600APISW_1| 20 20 20 20 20 31 32 33 34 35 36 30 30 41 50 49 53 57 5F 31
+    81 |21              .(  | 32 31 20 20 20 20 20 20 20 20 20 20 20 20 20 20 00 28 20 20
+   101 |         #0112000000| 20 20 20 20 20 20 20 20 20 23 30 31 31 32 30 30 30 30 30 30
+   121 |000000..001858..40  | 30 30 30 30 30 30 00 03 30 30 31 38 35 38 00 19 34 30 20 20
+   141 | APISWV1.0     ..100| 20 41 50 49 53 57 56 31 2E 30 20 20 20 20 20 00 05 31 30 30
+   161 |69..0001..Autorizaci| 36 39 00 04 30 30 30 31 00 16 41 75 74 6F 72 69 7A 61 63 69
+   181 |on Ok!|               6F 6E 20 4F 6B 21
+2020-02-28 20:10:48.246 [16] INFO - ClientAutorizador received message: H:6000360101,M:210,0:[2,3,4,7,11,12,13,22,24,25,37,38,39,41,42,46,48,49,60,61,62,63],2:************0001,3:000000,4:1000,7:0228201047,11:325970,12:201047,13:0228,22:022,24:36,25:00,37:1234567,38:123456,39:00,41:APISW_12,42:1,46:           #0112000000000000,48:001,49:858,60:40   APISWV1.0     ,61:10069,62:0001,63:Autorizacion Ok!
+2020-02-28 20:10:48.247 [13] INFO - iMsg : H:6000360101,M:210,0:[2,3,4,7,11,12,13,22,24,25,37,38,39,41,42,46,48,49,60,61,62,63],2:************0001,3:000000,4:1000,7:0228201047,11:325970,12:201047,13:0228,22:022,24:36,25:00,37:1234567,38:123456,39:00,41:APISW_12,42:1,46:           #0112000000000000,48:001,49:858,60:40   APISWV1.0     ,61:10069,62:0001,63:Autorizacion Ok!
+2020-02-28 20:10:48.247 [13] INFO - ClientAutorizador: disconnecting from 127.0.0.1:7000, local end point 127.0.0.1:6681.
+2020-02-28 20:10:48.247 [13] INFO - Response: 00
+2020-02-28 20:10:48.247 [13] INFO - #################### Fin ClientAutorizador ####################

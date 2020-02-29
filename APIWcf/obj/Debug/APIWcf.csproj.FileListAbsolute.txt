@@ -1,0 +1,28 @@
+C:\Users\Aparicio\documents\visual studio 2017\Projects\APIWcf\APIWcf\bin\APIWcf.dll.config
+C:\Users\Aparicio\documents\visual studio 2017\Projects\APIWcf\APIWcf\bin\APIWcf.dll
+C:\Users\Aparicio\documents\visual studio 2017\Projects\APIWcf\APIWcf\bin\APIWcf.pdb
+C:\Users\Aparicio\documents\visual studio 2017\Projects\APIWcf\APIWcf\obj\Debug\APIWcf.csproj.CoreCompileInputs.cache
+C:\Users\Aparicio\documents\visual studio 2017\Projects\APIWcf\APIWcf\obj\Debug\APIWcf.dll
+C:\Users\Aparicio\documents\visual studio 2017\Projects\APIWcf\APIWcf\obj\Debug\APIWcf.pdb
+C:\Users\Aparicio\documents\visual studio 2017\Projects\APIWcf\APIWcf\bin\Newtonsoft.Json.dll
+C:\Users\Aparicio\documents\visual studio 2017\Projects\APIWcf\APIWcf\bin\Newtonsoft.Json.xml
+C:\Users\Aparicio\documents\visual studio 2017\Projects\APIWcf\APIWcf\obj\Debug\APIWcf.csproj.CopyComplete
+C:\Users\Aparicio\documents\visual studio 2017\Projects\APIWcf\APIWcf\bin\Trx.dll.log4net
+C:\Users\Aparicio\documents\visual studio 2017\Projects\APIWcf\APIWcf\bin\Trx.dll
+C:\Users\Aparicio\documents\visual studio 2017\Projects\APIWcf\APIWcf\bin\log4net.dll
+C:\Users\Aparicio\documents\visual studio 2017\Projects\APIWcf\APIWcf\bin\Trx.pdb
+C:\Users\Apa\Downloads\Entrega 2\APIWcf\APIWcf\bin\Trx.dll.log4net
+C:\Users\Apa\Downloads\Entrega 2\APIWcf\APIWcf\bin\APIWcf.dll.config
+C:\Users\Apa\Downloads\Entrega 2\APIWcf\APIWcf\bin\APIWcf.dll
+C:\Users\Apa\Downloads\Entrega 2\APIWcf\APIWcf\bin\APIWcf.pdb
+C:\Users\Apa\Downloads\Entrega 2\APIWcf\APIWcf\bin\Newtonsoft.Json.dll
+C:\Users\Apa\Downloads\Entrega 2\APIWcf\APIWcf\bin\Trx.dll
+C:\Users\Apa\Downloads\Entrega 2\APIWcf\APIWcf\bin\log4net.dll
+C:\Users\Apa\Downloads\Entrega 2\APIWcf\APIWcf\bin\Trx.pdb
+C:\Users\Apa\Downloads\Entrega 2\APIWcf\APIWcf\bin\Newtonsoft.Json.xml
+C:\Users\Apa\Downloads\Entrega 2\APIWcf\APIWcf\obj\Debug\APIWcf.csprojAssemblyReference.cache
+C:\Users\Apa\Downloads\Entrega 2\APIWcf\APIWcf\obj\Debug\APIWcf.csproj.CoreCompileInputs.cache
+C:\Users\Apa\Downloads\Entrega 2\APIWcf\APIWcf\obj\Debug\APIWcf.csproj.CopyComplete
+C:\Users\Apa\Downloads\Entrega 2\APIWcf\APIWcf\obj\Debug\APIWcf.dll
+C:\Users\Apa\Downloads\Entrega 2\APIWcf\APIWcf\obj\Debug\APIWcf.pdb
+C:\Users\Aparicio\documents\visual studio 2017\Projects\APIWcf\APIWcf\obj\Debug\APIWcf.csprojAssemblyReference.cache

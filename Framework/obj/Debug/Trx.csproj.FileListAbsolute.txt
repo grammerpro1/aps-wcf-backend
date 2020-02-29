@@ -1,0 +1,70 @@
+C:\Trx Framework 2_0_3003_1\Trx\Src\Framework\bin\Debug\Trx.dll.log4net
+C:\Trx Framework 2_0_3003_1\Trx\Src\Framework\bin\Debug\Trx.dll
+C:\Trx Framework 2_0_3003_1\Trx\Src\Framework\bin\Debug\Trx.pdb
+C:\Trx Framework 2_0_3003_1\Trx\Src\Framework\bin\Debug\log4net.dll
+H:\Trx Framework 2_0_3003_1\Trx\Bin\Trx.dll.log4net
+H:\Trx Framework 2_0_3003_1\Trx\Bin\Trx.dll
+H:\Trx Framework 2_0_3003_1\Trx\Bin\Trx.pdb
+H:\Trx Framework 2_0_3003_1\Trx\Src\Framework\obj\Debug\ResolveAssemblyReference.cache
+H:\Trx Framework 2_0_3003_1\Trx\Src\Framework\obj\Debug\Trx.dll
+H:\Trx Framework 2_0_3003_1\Trx\Src\Framework\obj\Debug\Trx.pdb
+C:\Aparicio\2014-01-15\Trx Framework 2_0_3003_1\Trx\Bin\Trx.dll.log4net
+C:\Aparicio\2014-01-15\Trx Framework 2_0_3003_1\Trx\Bin\Trx.dll
+C:\Aparicio\2014-01-15\Trx Framework 2_0_3003_1\Trx\Bin\Trx.pdb
+C:\Aparicio\2014-01-15\Trx Framework 2_0_3003_1\Trx\Src\Framework\obj\Debug\Trx.csprojResolveAssemblyReference.cache
+C:\Aparicio\2014-01-15\Trx Framework 2_0_3003_1\Trx\Src\Framework\obj\Debug\Trx.dll
+C:\Aparicio\2014-01-15\Trx Framework 2_0_3003_1\Trx\Src\Framework\obj\Debug\Trx.pdb
+C:\Trx Framework 2_0_3003_1\Trx\Bin\Trx.dll.log4net
+C:\Trx Framework 2_0_3003_1\Trx\Bin\Trx.dll
+C:\Trx Framework 2_0_3003_1\Trx\Bin\Trx.pdb
+C:\Trx Framework 2_0_3003_1\Trx\Src\Framework\obj\Debug\Trx.dll
+C:\Trx Framework 2_0_3003_1\Trx\Src\Framework\obj\Debug\Trx.pdb
+C:\Trx Framework 2_0_3003_1\Trx\Src\Framework\obj\Debug\ResolveAssemblyReference.cache
+\\192.168.10.202\Fuentes\Trx Framework 2_0_3003_1\Trx\Bin\Trx.dll.log4net
+\\192.168.10.202\Fuentes\Trx Framework 2_0_3003_1\Trx\Bin\Trx.dll
+\\192.168.10.202\Fuentes\Trx Framework 2_0_3003_1\Trx\Bin\Trx.pdb
+\\192.168.10.202\Fuentes\Trx Framework 2_0_3003_1\Trx\Src\Framework\obj\Debug\Trx.csprojResolveAssemblyReference.cache
+\\192.168.10.202\Fuentes\Trx Framework 2_0_3003_1\Trx\Src\Framework\obj\Debug\Trx.dll
+\\192.168.10.202\Fuentes\Trx Framework 2_0_3003_1\Trx\Src\Framework\obj\Debug\Trx.pdb
+C:\Users\Gabriel\Desktop\Trx Framework 2_0_3003_1\Trx\Bin\Trx.dll.log4net
+C:\Users\Gabriel\Desktop\Trx Framework 2_0_3003_1\Trx\Bin\Trx.dll
+C:\Users\Gabriel\Desktop\Trx Framework 2_0_3003_1\Trx\Bin\Trx.pdb
+C:\Users\Gabriel\Desktop\Trx Framework 2_0_3003_1\Trx\Src\Framework\obj\Debug\Trx.csprojResolveAssemblyReference.cache
+C:\Users\Gabriel\Desktop\Trx Framework 2_0_3003_1\Trx\Src\Framework\obj\Debug\Trx.dll
+C:\Users\Gabriel\Desktop\Trx Framework 2_0_3003_1\Trx\Src\Framework\obj\Debug\Trx.pdb
+H:\Trx Framework SWClubDelEste\Trx\Bin\Trx.dll.log4net
+H:\Trx Framework SWClubDelEste\Trx\Bin\Trx.dll
+H:\Trx Framework SWClubDelEste\Trx\Bin\Trx.pdb
+H:\Trx Framework SWClubDelEste\Trx\Src\Framework\obj\Debug\Trx.dll
+H:\Trx Framework SWClubDelEste\Trx\Src\Framework\obj\Debug\Trx.pdb
+H:\Trx Framework SWClubDelEste\Trx\Src\Framework\obj\Debug\Trx.csprojResolveAssemblyReference.cache
+C:\Users\Apa\Documents\Visual Studio 2017\Proyectos\WinCliente\Framework\obj\Debug\Trx.csproj.CoreCompileInputs.cache
+C:\Users\Apa\Documents\Visual Studio 2017\Proyectos\WinCliente\Framework\obj\Debug\Trx.dll
+C:\Users\Apa\Documents\Visual Studio 2017\Proyectos\WinCliente\Framework\obj\Debug\Trx.pdb
+C:\Users\Apa\Documents\Visual Studio 2017\Proyectos\Bin\Trx.dll.log4net
+C:\Users\Apa\Documents\Visual Studio 2017\Proyectos\Bin\Trx.dll
+C:\Users\Apa\Documents\Visual Studio 2017\Proyectos\Bin\Trx.pdb
+C:\Users\Apa\Documents\Visual Studio 2017\Proyectos\WinCliente\Framework\obj\Debug\Trx.csproj.CopyComplete
+C:\Users\Apa\Documents\Visual Studio 2017\Proyectos\WinCliente\Framework\bin\Debug\Trx.dll.log4net
+C:\Users\Apa\Documents\Visual Studio 2017\Proyectos\WinCliente\Framework\bin\Debug\Trx.dll
+C:\Users\Apa\Documents\Visual Studio 2017\Proyectos\WinCliente\Framework\bin\Debug\Trx.pdb
+C:\Users\Apa\Documents\Visual Studio 2017\Proyectos\WinCliente\Framework\bin\Debug\log4net.dll
+C:\Users\Apa\Documents\Visual Studio 2017\Proyectos\WinCliente\Framework\obj\Debug\Trx.csprojAssemblyReference.cache
+C:\Users\Aparicio\Documents\Visual Studio 2017\Projects\APIWcf\Framework\bin\Debug\Trx.dll.log4net
+C:\Users\Aparicio\Documents\Visual Studio 2017\Projects\APIWcf\Framework\bin\Debug\Trx.dll
+C:\Users\Aparicio\Documents\Visual Studio 2017\Projects\APIWcf\Framework\bin\Debug\Trx.pdb
+C:\Users\Aparicio\Documents\Visual Studio 2017\Projects\APIWcf\Framework\bin\Debug\log4net.dll
+C:\Users\Aparicio\Documents\Visual Studio 2017\Projects\APIWcf\Framework\obj\Debug\Trx.csproj.CoreCompileInputs.cache
+C:\Users\Aparicio\Documents\Visual Studio 2017\Projects\APIWcf\Framework\obj\Debug\Trx.csproj.CopyComplete
+C:\Users\Aparicio\Documents\Visual Studio 2017\Projects\APIWcf\Framework\obj\Debug\Trx.dll
+C:\Users\Aparicio\Documents\Visual Studio 2017\Projects\APIWcf\Framework\obj\Debug\Trx.pdb
+C:\Users\Apa\Downloads\Entrega 2\APIWcf\Framework\bin\Debug\Trx.dll.log4net
+C:\Users\Apa\Downloads\Entrega 2\APIWcf\Framework\bin\Debug\Trx.dll
+C:\Users\Apa\Downloads\Entrega 2\APIWcf\Framework\bin\Debug\Trx.pdb
+C:\Users\Apa\Downloads\Entrega 2\APIWcf\Framework\bin\Debug\log4net.dll
+C:\Users\Apa\Downloads\Entrega 2\APIWcf\Framework\obj\Debug\Trx.csproj.CoreCompileInputs.cache
+C:\Users\Apa\Downloads\Entrega 2\APIWcf\Framework\obj\Debug\Trx.csproj.CopyComplete
+C:\Users\Apa\Downloads\Entrega 2\APIWcf\Framework\obj\Debug\Trx.dll
+C:\Users\Apa\Downloads\Entrega 2\APIWcf\Framework\obj\Debug\Trx.pdb
+C:\Users\Apa\Downloads\Entrega 2\APIWcf\Framework\obj\Debug\Trx.csprojAssemblyReference.cache
+C:\Users\Aparicio\documents\visual studio 2017\Projects\APIWcf\Framework\obj\Debug\Trx.csprojAssemblyReference.cache

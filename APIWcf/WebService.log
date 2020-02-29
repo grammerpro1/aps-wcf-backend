@@ -1,0 +1,12 @@
+2019-09-05 16:38:14.463 [5] WARN - #################### Inicio ClientAutorizador ####################
+2019-09-05 16:38:14.548 [5] WARN - Conectando con cliente RemoteInterface = localhost RemotePort = 7000
+2019-09-05 16:38:14.554 [5] INFO - ClientAutorizador: connecting to 127.0.0.1:7000 from local end point 0.0.0.0:0.
+2019-09-05 16:38:15.578 [6] WARN - ClientAutorizador: connection refused, No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión 127.0.0.1:7000.
+2019-09-05 16:38:15.579 [11] INFO - ClientAutorizador: connecting to 127.0.0.1:7000 from local end point 0.0.0.0:0.
+2019-09-05 16:38:15.586 [5] WARN - No hay conexion: System.Net.Sockets.SocketException (0x80004005): No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión 127.0.0.1:7000
+   en System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   en System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   en Trx.Communication.Channels.Tcp.TcpClientChannel.AsyncConnectionRequestHandler(IAsyncResult asyncResult) en C:\Users\Apa\Downloads\Entrega 2\APIWcf\Framework\Communication\Channels\Tcp\TcpClientChannel.cs:línea 333
+2019-09-05 16:38:15.587 [5] INFO - Response: -1
+2019-09-05 16:38:15.587 [5] INFO - #################### Fin ClientAutorizador ####################
+2019-09-05 16:38:16.592 [5] WARN - ClientAutorizador: connection refused, No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión 127.0.0.1:7000.

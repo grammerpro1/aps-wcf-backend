@@ -1,0 +1,8 @@
+C:\Users\Aparicio\documents\visual studio 2017\Projects\APIWcf\Framework\bin\Release\Trx.dll.log4net
+C:\Users\Aparicio\documents\visual studio 2017\Projects\APIWcf\Framework\bin\Release\Trx.dll
+C:\Users\Aparicio\documents\visual studio 2017\Projects\APIWcf\Framework\bin\Release\Trx.pdb
+C:\Users\Aparicio\documents\visual studio 2017\Projects\APIWcf\Framework\bin\Release\log4net.dll
+C:\Users\Aparicio\documents\visual studio 2017\Projects\APIWcf\Framework\obj\Release\Trx.csproj.CoreCompileInputs.cache
+C:\Users\Aparicio\documents\visual studio 2017\Projects\APIWcf\Framework\obj\Release\Trx.csproj.CopyComplete
+C:\Users\Aparicio\documents\visual studio 2017\Projects\APIWcf\Framework\obj\Release\Trx.dll
+C:\Users\Aparicio\documents\visual studio 2017\Projects\APIWcf\Framework\obj\Release\Trx.pdb
